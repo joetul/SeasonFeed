@@ -19,10 +19,10 @@ Feeds are generated daily using data from the [TVmaze API](https://www.tvmaze.co
 
 SeasonFeed is a community-maintained list. We can't simply add every show on TVmaze — only shows that are manually added and reviewed are included. This keeps the list focused and the feeds reliable.
 
-If a show you want isn't listed, you can help grow the list:
+You can help grow the list in two ways:
 
-- **[Open an issue](https://github.com/joetul/SeasonFeed/issues/new?labels=show-request&title=Request%3A+Add+[SHOW+NAME])** — include the show title and a TVmaze link if possible.
-- **[Submit a PR](https://github.com/joetul/SeasonFeed/pulls)** — add the show to `shows.json` and open a pull request.
+- **Request a show** — [open an issue](https://github.com/joetul/SeasonFeed/issues/new?labels=show-request&title=Request%3A+Add+[SHOW+NAME]) with the show name and a [TVmaze](https://www.tvmaze.com) link if possible. We'll add it for you.
+- **Add it yourself** — add an entry to `shows.json` and open a pull request.
 
 Shows can be added by name or with an explicit TVmaze ID:
 
