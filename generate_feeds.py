@@ -107,7 +107,7 @@ def detect_site_url():
         owner, repo = repository.split("/", 1)
         return f"https://{owner}.github.io/{repo}"
 
-    return "https://example.github.io/tv-season-rss"
+    return "https://joetul.github.io/SeasonFeed"
 
 
 def network_name(show_data):
@@ -179,7 +179,7 @@ def build_update_page(show_name, season_number_value, premiere, finale, episode_
         <article>
             <header>
                 <h1>{safe_show} Season {season_number_value} Update</h1>
-                <p class=\"meta\">TV Season Tracker RSS</p>
+                    <p class="meta">SeasonFeed</p>
             </header>
             <p>This page summarizes the latest season information for <strong>{safe_show}</strong>.</p>
             <ul>
@@ -189,7 +189,7 @@ def build_update_page(show_name, season_number_value, premiere, finale, episode_
             </ul>
             <p><a href=\"{safe_search_url}\">Where to watch (Google search)</a></p>
             <p><a href=\"{safe_season_url}\">Open season details on TVmaze</a></p>
-            <p><a href=\"{safe_feed_url}\">Back to this show's RSS feed</a></p>
+            <p><a href=\"{safe_feed_url}\">Open RSS feed link</a></p>
         </article>
     </main>
 </body>

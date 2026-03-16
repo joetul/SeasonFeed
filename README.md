@@ -1,8 +1,9 @@
-# TV Season Tracker RSS
+
+# SeasonFeed
 
 Never miss a new TV season. Subscribe to RSS feeds for your favorite shows and get notified when a new season is announced.
 
-**Live site:** [joetul.github.io/TV-Season-Tracker-RSS](https://joetul.github.io/TV-Season-Tracker-RSS/)
+**Live site:** [joetul.github.io/SeasonFeed](https://joetul.github.io/SeasonFeed/)
 
 ## How It Works
 
@@ -16,10 +17,11 @@ Feeds are generated daily using data from the [TVmaze API](https://www.tvmaze.co
 
 ## Show Missing?
 
+
 If a show you want isn't listed:
 
-- **[Open an issue](https://github.com/joetul/TV-Season-Tracker-RSS/issues/new?labels=show-request&title=Request%3A+Add+[SHOW+NAME])** — include the show title and a TVmaze link if possible.
-- **[Submit a PR](https://github.com/joetul/TV-Season-Tracker-RSS/pulls)** — add the show to `shows.json` and open a pull request.
+- **[Open an issue](https://github.com/joetul/SeasonFeed/issues/new?labels=show-request&title=Request%3A+Add+[SHOW+NAME])**  include the show title and a TVmaze link if possible.
+- **[Submit a PR](https://github.com/joetul/SeasonFeed/pulls)**  add the show to `shows.json` and open a pull request.
 
 Shows can be added by name or with an explicit TVmaze ID:
 
