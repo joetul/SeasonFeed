@@ -434,6 +434,13 @@
       return `https://www.google.com/search?q=${encodeURIComponent(`${query} where to watch`)}`;
     }
 
+    function tvmazeUrl(show) {
+      if (show.tvmaze_url) return show.tvmaze_url;
+      const query = String(show.name || "").trim();
+      if (!query) return "https://www.tvmaze.com";
+      return `https://www.tvmaze.com/search?q=${encodeURIComponent(query)}`;
+    }
+
     function render() {
       listEl.textContent = "";
       countEl.textContent = `${state.filtered.length} shows`;
@@ -469,6 +476,16 @@
         availabilityLink.textContent = "Search Where to Watch";
         availability.appendChild(availabilityLink);
         meta.appendChild(availability);
+
+        const tvmaze = document.createElement("span");
+        tvmaze.className = "tag link";
+        const tvmazeLink = document.createElement("a");
+        tvmazeLink.href = tvmazeUrl(show);
+        tvmazeLink.target = "_blank";
+        tvmazeLink.rel = "noopener noreferrer";
+        tvmazeLink.textContent = "TVmaze";
+        tvmaze.appendChild(tvmazeLink);
+        meta.appendChild(tvmaze);
 
         const status = document.createElement("span");
         status.className = `tag ${statusClass(show.status)}`.trim();
