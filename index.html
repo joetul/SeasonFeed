@@ -316,12 +316,6 @@
       background: rgba(80, 250, 123, 0.1);
     }
 
-    .btn-link:hover {
-      border-color: var(--cyan);
-      color: var(--cyan);
-      background: rgba(139, 233, 253, 0.1);
-    }
-
     .show-cb, #select-all-cb {
       -webkit-appearance: none;
       appearance: none;
@@ -709,8 +703,6 @@
       const year = show.premiered ? show.premiered.substring(0, 4) : "";
       const imgSrc = show.image ? escapeHtml(show.image) : "";
       const feedUrl = escapeHtml(show.feed_url || "");
-      const tvmazeUrl = escapeHtml(show.tvmaze_url || "#");
-
       let statusClass = "status-tbd";
       let statusLabel = show.status || "Unknown";
       if (statusLabel === "Running") statusClass = "status-running";
@@ -729,8 +721,7 @@
         '</td>' +
         '<td class="col-status"><span class="status-badge ' + statusClass + '">' + statusDisplay + '</span></td>' +
         '<td class="col-actions">' +
-          '<button class="btn-action btn-rss" data-url="' + feedUrl + '" title="Copy RSS URL">RSS URL</button>' +
-          '<a href="' + tvmazeUrl + '" target="_blank" rel="noopener" class="btn-action btn-link" title="View on TVmaze">&#8599;</a>' +
+          '<button class="btn-action btn-rss" data-url="' + feedUrl + '" title="Copy RSS URL">Copy RSS</button>' +
         '</td>';
       // Add row click for selection
       tr.addEventListener("click", function(e) {
