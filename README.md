@@ -9,7 +9,7 @@ Never miss a new TV season. Subscribe to RSS feeds for your favorite shows and g
 
 1. Browse the show list on the site.
 2. Click **Copy RSS** to grab a feed URL.
-3. Paste it into your RSS reader (Feedly, Inoreader, NetNewsWire, etc.).
+3. Paste it into your RSS reader (FeedFlow, NetNewsWire, etc.).
 
 You can also select multiple shows and export them as an OPML file for bulk import.
 
