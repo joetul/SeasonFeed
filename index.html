@@ -3,257 +3,342 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TV Season Tracker – RSS Feeds for Your Favorite Shows</title>
+  <title>TV Season Tracker - RSS Feeds for Your Favorite Shows</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0a0e27;
-      --bg-alt: #0f1428;
-      --surface: #151d3b;
-      --surface-hover: #1a2347;
-      --text: #f5f5f5;
-      --text-muted: #a0a0a0;
-      --accent: #7c3aed;
-      --accent-bright: #a78bfa;
-      --success: #10b981;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --border: #2a3556;
-      --border-light: #3d4a6b;
+      --bg: #f5f2ea;
+      --bg-alt: #efe8db;
+      --ink: #1e1b18;
+      --ink-muted: #5f5a52;
+      --surface: #fffdf8;
+      --surface-soft: #f8f3e8;
+      --line: #ddd1bc;
+      --line-strong: #c5b392;
+      --primary: #0f766e;
+      --primary-strong: #115e59;
+      --accent: #d97706;
+      --good: #0f766e;
+      --bad: #b91c1c;
+      --radius-lg: 20px;
+      --radius-md: 14px;
+      --shadow-soft: 0 20px 45px rgba(49, 40, 25, 0.08);
     }
 
     * {
       box-sizing: border-box;
     }
 
-    html, body {
+    html,
+    body {
       margin: 0;
       padding: 0;
     }
 
     body {
-      font-family: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: linear-gradient(135deg, var(--bg) 0%, var(--bg-alt) 100%);
-      color: var(--text);
-      line-height: 1.6;
+      font-family: "Manrope", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 8% 10%, rgba(217, 119, 6, 0.16), transparent 35%),
+        radial-gradient(circle at 90% 8%, rgba(15, 118, 110, 0.15), transparent 34%),
+        linear-gradient(165deg, var(--bg) 0%, var(--bg-alt) 100%);
+      color: var(--ink);
       min-height: 100vh;
+      line-height: 1.55;
+    }
+
+    .grain {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.18;
+      background-image: radial-gradient(rgba(30, 27, 24, 0.15) 0.5px, transparent 0.5px);
+      background-size: 3px 3px;
+      z-index: 0;
     }
 
     .container {
-      width: min(1100px, 95vw);
+      width: min(1120px, 94vw);
       margin: 0 auto;
-      padding: 3rem 1.5rem;
+      padding: 2.3rem 1rem 4rem;
+      position: relative;
+      z-index: 1;
+      animation: fade-up 600ms ease-out;
     }
 
-    /* Header & Hero */
-    header {
-      margin-bottom: 3rem;
+    .hero {
+      background: rgba(255, 253, 248, 0.86);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--line);
+      border-radius: calc(var(--radius-lg) + 4px);
+      padding: 2rem;
+      box-shadow: var(--shadow-soft);
+      margin-bottom: 1.4rem;
+    }
+
+    .hero-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
     }
 
     .logo {
-      display: flex;
+      display: inline-flex;
       align-items: center;
-      gap: 0.8rem;
-      margin-bottom: 2rem;
+      gap: 0.7rem;
       text-decoration: none;
-      color: var(--text);
+      color: var(--ink);
       font-weight: 700;
-      font-size: 1.1rem;
+      font-family: "Space Grotesk", sans-serif;
+      letter-spacing: -0.01em;
     }
 
-    .logo-icon {
-      width: 32px;
-      height: 32px;
-      display: flex;
+    .logo-badge {
+      width: 2.25rem;
+      height: 2.25rem;
+      display: inline-flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(135deg, var(--accent), var(--accent-bright));
-      border-radius: 8px;
-      color: white;
+      border-radius: 0.8rem;
+      background: linear-gradient(145deg, var(--accent), #f59e0b);
+      color: #fff;
+      box-shadow: 0 8px 20px rgba(217, 119, 6, 0.22);
+    }
+
+    .mini-pill {
+      border: 1px solid var(--line-strong);
+      border-radius: 999px;
+      padding: 0.45rem 0.8rem;
+      font-size: 0.78rem;
       font-weight: 700;
-      font-size: 1.2rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      background: rgba(248, 243, 232, 0.9);
     }
 
     h1 {
-      font-size: clamp(2rem, 5vw, 3.2rem);
-      margin: 0 0 1rem;
-      line-height: 1.1;
-      font-weight: 700;
-      letter-spacing: -0.02em;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: clamp(2rem, 4.6vw, 3.5rem);
+      line-height: 1.06;
+      letter-spacing: -0.03em;
+      margin: 1.1rem 0 0.9rem;
+      max-width: 760px;
+      text-wrap: balance;
     }
 
     .subtitle {
-      font-size: 1.15rem;
-      color: var(--text-muted);
-      max-width: 600px;
       margin: 0;
-      line-height: 1.5;
+      max-width: 760px;
+      color: var(--ink-muted);
+      font-size: clamp(1rem, 2.2vw, 1.13rem);
     }
 
-    /* Main Panel */
+    .hero-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin-top: 1.25rem;
+    }
+
+    .stat-chip {
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--surface-soft);
+      color: var(--ink-muted);
+      padding: 0.5rem 0.8rem;
+      font-size: 0.84rem;
+      font-weight: 600;
+    }
+
+    .main-panel,
+    .info-section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-soft);
+    }
+
     .main-panel {
-      background: rgba(21, 29, 59, 0.5);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 2rem;
-      margin-bottom: 2rem;
-      backdrop-filter: blur(10px);
+      padding: 1.35rem;
+      margin-bottom: 1.35rem;
     }
 
-    .search-container {
-      margin-bottom: 1.5rem;
+    .toolbar {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 1rem;
+    }
+
+    .filter-label,
+    .toolbar-title {
+      display: block;
+      margin-bottom: 0.55rem;
+      color: var(--ink-muted);
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .toolbar-title {
+      margin-bottom: 0.4rem;
     }
 
     #filter {
       width: 100%;
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      background: rgba(15, 20, 40, 0.6);
-      color: var(--text);
-      padding: 0.875rem 1.25rem;
-      font-family: "Geist", sans-serif;
-      font-size: 0.95rem;
-      transition: all 0.3s ease;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--ink);
+      padding: 0.82rem 1rem;
+      font-size: 0.96rem;
+      font-family: "Manrope", sans-serif;
+      transition: border-color 160ms ease, box-shadow 160ms ease;
     }
 
-    #filter:focus {
+    #filter:focus-visible {
       outline: none;
-      border-color: var(--accent);
-      background: rgba(15, 20, 40, 0.9);
-      box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
-    }
-
-    .filter-label {
-      display: block;
-      font-size: 0.85rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--text-muted);
-      margin-bottom: 0.75rem;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.14);
     }
 
     #count {
-      margin-top: 0.75rem;
-      font-size: 0.85rem;
-      color: var(--text-muted);
-      font-weight: 500;
+      margin: 0;
+      color: var(--ink-muted);
+      font-size: 0.9rem;
+      font-weight: 600;
     }
 
     .bulk-section {
-      margin-top: 1.5rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
       display: flex;
-      flex-wrap: wrap;
-      align-items: center;
+      align-items: end;
       justify-content: space-between;
-      gap: 1rem;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+    }
+
+    #selected-count {
+      color: var(--ink-muted);
+      font-size: 0.9rem;
+      font-weight: 600;
     }
 
     .bulk-actions {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.6rem;
+      gap: 0.55rem;
+    }
+
+    .bulk-btn,
+    .rss-btn,
+    .cta-button {
+      border-radius: 999px;
+      font-family: "Manrope", sans-serif;
+      font-weight: 700;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease, border-color 180ms ease;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .bulk-btn {
-      padding: 0.6rem 1rem;
-      border: 1px solid var(--border-light);
-      border-radius: 8px;
-      background: rgba(21, 29, 59, 0.8);
-      color: var(--text);
-      font-size: 0.85rem;
-      font-weight: 500;
-      cursor: pointer;
-      transition: all 0.2s ease;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      border: 1px solid var(--line-strong);
+      color: var(--ink);
+      background: #fff;
+      padding: 0.6rem 0.95rem;
     }
 
-    .bulk-btn:hover:not(:disabled) {
-      border-color: var(--accent);
-      background: rgba(21, 29, 59, 0.95);
+    .bulk-btn:hover:not(:disabled),
+    .bulk-btn:focus-visible:not(:disabled) {
+      transform: translateY(-1px);
+      border-color: var(--primary);
     }
 
     .bulk-btn:disabled {
-      opacity: 0.4;
+      opacity: 0.45;
       cursor: not-allowed;
     }
 
-    /* Shows List */
     .shows-list {
       display: grid;
-      gap: 1rem;
+      gap: 0.9rem;
     }
 
     .show-card {
       display: grid;
       grid-template-columns: 1fr auto;
-      gap: 1.5rem;
-      align-items: start;
-      padding: 1.25rem;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      background: rgba(21, 29, 59, 0.3);
-      transition: all 0.3s ease;
+      align-items: center;
+      gap: 1rem;
+      background: linear-gradient(180deg, #fff, #fffcf6);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+      animation: fade-up 340ms ease both;
     }
 
     .show-card:hover {
-      border-color: var(--border-light);
-      background: rgba(21, 29, 59, 0.5);
+      transform: translateY(-2px);
+      border-color: var(--line-strong);
+      box-shadow: 0 12px 24px rgba(49, 40, 25, 0.08);
     }
 
     .show-info {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
+      display: grid;
+      gap: 0.6rem;
     }
 
     .show-name {
       margin: 0;
-      font-size: 1.25rem;
-      font-weight: 700;
-      letter-spacing: -0.01em;
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 1.24rem;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
     }
 
     .show-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.6rem;
+      gap: 0.45rem;
     }
 
     .tag {
       display: inline-flex;
       align-items: center;
-      padding: 0.35rem 0.75rem;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      font-size: 0.8rem;
-      font-weight: 500;
-      color: var(--text-muted);
-      background: rgba(15, 20, 40, 0.4);
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--surface-soft);
+      padding: 0.37rem 0.7rem;
+      color: var(--ink-muted);
+      font-size: 0.78rem;
+      font-weight: 700;
     }
 
     .tag.status-running {
-      border-color: rgba(16, 185, 129, 0.3);
-      color: var(--success);
-      background: rgba(16, 185, 129, 0.08);
+      border-color: rgba(15, 118, 110, 0.32);
+      color: var(--good);
+      background: rgba(15, 118, 110, 0.09);
     }
 
     .tag.status-ended {
-      border-color: rgba(239, 68, 68, 0.3);
-      color: var(--danger);
-      background: rgba(239, 68, 68, 0.08);
+      border-color: rgba(185, 28, 28, 0.32);
+      color: var(--bad);
+      background: rgba(185, 28, 28, 0.09);
     }
 
     .tag a {
-      color: var(--accent-bright);
+      color: var(--primary);
       text-decoration: none;
-      display: inline-flex;
-      align-items: center;
     }
 
     .tag a:hover {
@@ -263,189 +348,204 @@
     .show-actions {
       display: flex;
       align-items: center;
-      gap: 0.75rem;
+      gap: 0.72rem;
     }
 
     .checkbox-wrapper {
-      display: flex;
+      display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-    }
-
-    input[type="checkbox"] {
-      width: 20px;
-      height: 20px;
-      cursor: pointer;
-      accent-color: var(--accent);
-    }
-
-    .rss-btn {
-      padding: 0.6rem 1.25rem;
-      border: none;
-      border-radius: 8px;
-      background: linear-gradient(135deg, var(--accent), var(--accent-bright));
-      color: white;
-      font-weight: 600;
-      font-size: 0.9rem;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      color: var(--ink-muted);
+      font-size: 0.82rem;
+      font-weight: 700;
       white-space: nowrap;
     }
 
-    .rss-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 16px rgba(124, 58, 237, 0.3);
+    input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+      accent-color: var(--primary);
+    }
+
+    .rss-btn {
+      border: 1px solid var(--primary);
+      background: linear-gradient(135deg, var(--primary), var(--primary-strong));
+      color: #fff;
+      padding: 0.62rem 1rem;
+      letter-spacing: 0.03em;
+      min-width: 96px;
+    }
+
+    .rss-btn:hover,
+    .rss-btn:focus-visible {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 18px rgba(15, 118, 110, 0.25);
     }
 
     .rss-btn.copied {
-      background: linear-gradient(135deg, var(--success), #34d399);
+      border-color: #0e9f6e;
+      background: linear-gradient(135deg, #10b981, #059669);
     }
 
-    /* Empty State */
     .empty-state {
       text-align: center;
-      padding: 3rem 1.5rem;
-      border: 1px dashed var(--border);
-      border-radius: 12px;
-      color: var(--text-muted);
+      border: 1px dashed var(--line-strong);
+      border-radius: var(--radius-md);
+      color: var(--ink-muted);
+      padding: 2rem 1rem;
+      background: var(--surface-soft);
     }
 
     .empty-state p {
       margin: 0;
     }
 
-    /* Information Sections */
     .info-section {
-      background: rgba(21, 29, 59, 0.5);
-      border-left: 4px solid var(--accent);
-      border-radius: 12px;
-      padding: 2rem;
-      margin-bottom: 2rem;
-      border: 1px solid var(--border);
-      border-left: 4px solid var(--accent);
+      padding: 1.35rem;
+      margin-bottom: 1.35rem;
     }
 
     .info-section h2 {
-      margin: 0 0 1rem;
-      font-size: 1.4rem;
-      font-weight: 700;
+      margin: 0 0 0.75rem;
+      font-size: 1.48rem;
+      font-family: "Space Grotesk", sans-serif;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
     }
 
     .info-section p {
-      margin: 0 0 1rem;
-      color: var(--text-muted);
-      line-height: 1.6;
+      margin: 0 0 0.8rem;
+      color: var(--ink-muted);
     }
 
     .info-section p:last-child {
       margin-bottom: 0;
     }
 
-    .cta-group {
+    .reasons {
+      margin: 0;
+      padding-left: 1.15rem;
+      color: var(--ink-muted);
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1rem;
-      margin-top: 1.5rem;
+      gap: 0.33rem;
+      font-size: 0.94rem;
+    }
+
+    .cta-group {
+      margin-top: 1rem;
+      display: grid;
+      gap: 0.85rem;
+      grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
     }
 
     .cta-card {
-      padding: 1.5rem;
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      background: rgba(15, 20, 40, 0.4);
-      text-align: center;
-      transition: all 0.3s ease;
+      background: linear-gradient(180deg, #fff, #fff9ed);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      transition: border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+      display: grid;
+      gap: 0.55rem;
+      align-content: start;
     }
 
     .cta-card:hover {
-      border-color: var(--accent);
-      background: rgba(124, 58, 237, 0.08);
+      border-color: var(--line-strong);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 22px rgba(49, 40, 25, 0.09);
     }
 
     .cta-card h3 {
-      margin: 0 0 0.5rem;
-      font-size: 1.1rem;
-      font-weight: 700;
+      margin: 0;
+      font-size: 1.04rem;
+      font-family: "Space Grotesk", sans-serif;
+      letter-spacing: -0.01em;
     }
 
     .cta-card p {
-      margin: 0 0 1rem;
+      margin: 0;
+      color: var(--ink-muted);
       font-size: 0.9rem;
-      color: var(--text-muted);
     }
 
     .cta-button {
-      display: inline-block;
-      padding: 0.7rem 1.5rem;
-      background: var(--accent);
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: 600;
-      transition: all 0.3s ease;
-      border: 1px solid var(--accent);
+      justify-self: start;
+      margin-top: 0.22rem;
+      background: #fff;
+      border: 1px solid var(--line-strong);
+      color: var(--ink);
+      padding: 0.6rem 0.9rem;
     }
 
-    .cta-button:hover {
-      background: var(--accent-bright);
-      border-color: var(--accent-bright);
-      transform: translateY(-2px);
+    .cta-button:hover,
+    .cta-button:focus-visible {
+      border-color: var(--primary);
+      color: var(--primary-strong);
+      transform: translateY(-1px);
     }
 
-    /* Footer */
     footer {
-      margin-top: 4rem;
-      padding-top: 2rem;
-      border-top: 1px solid var(--border);
+      margin-top: 2.1rem;
+      padding-top: 1.4rem;
+      border-top: 1px solid var(--line);
+      color: var(--ink-muted);
       display: flex;
       flex-wrap: wrap;
-      gap: 1.5rem;
+      gap: 1rem;
       font-size: 0.9rem;
-      color: var(--text-muted);
     }
 
     footer a {
-      color: var(--accent-bright);
+      color: var(--primary-strong);
       text-decoration: none;
+      font-weight: 600;
     }
 
     footer a:hover {
       text-decoration: underline;
     }
 
-    /* Responsive */
-    @media (max-width: 768px) {
-      .container {
-        padding: 2rem 1rem;
+    @keyframes fade-up {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
       }
-
-      h1 {
-        font-size: clamp(1.5rem, 4vw, 2.5rem);
+      to {
+        opacity: 1;
+        transform: translateY(0);
       }
+    }
 
-      .main-panel {
-        padding: 1.5rem;
+    @media (max-width: 880px) {
+      .toolbar {
+        grid-template-columns: 1fr;
       }
 
       .show-card {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        align-items: start;
       }
 
       .show-actions {
         width: 100%;
-        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding: 1.3rem 0.8rem 2.3rem;
       }
 
-      .rss-btn {
-        width: 100%;
+      .hero,
+      .main-panel,
+      .info-section {
+        padding: 1rem;
       }
 
-      .bulk-section {
-        flex-direction: column;
-        align-items: stretch;
+      h1 {
+        font-size: clamp(1.75rem, 9vw, 2.4rem);
       }
 
       .bulk-actions {
@@ -454,82 +554,103 @@
 
       .bulk-btn {
         flex: 1;
-        text-align: center;
       }
 
-      .cta-group {
-        grid-template-columns: 1fr;
+      .show-actions {
+        display: grid;
+        grid-template-columns: 1fr auto;
+      }
+
+      .rss-btn {
+        min-width: 84px;
       }
 
       footer {
         flex-direction: column;
-        gap: 1rem;
+        gap: 0.6rem;
       }
     }
   </style>
 </head>
 <body>
+  <div class="grain" aria-hidden="true"></div>
   <div class="container">
-    <header>
-      <a href="#" class="logo">
-        <div class="logo-icon">📺</div>
-        <span>TV Season Tracker</span>
-      </a>
-      <h1>Never miss a season drop</h1>
-      <p class="subtitle">Get personalized RSS feeds for your favorite TV shows. Stay updated the moment new seasons are announced on TVmaze.</p>
+    <header class="hero">
+      <div class="hero-top">
+        <a href="#" class="logo" aria-label="TV Season Tracker home">
+          <span class="logo-badge" aria-hidden="true">TV</span>
+          <span>TV Season Tracker</span>
+        </a>
+        <span class="mini-pill">Open Source Feed Directory</span>
+      </div>
+      <h1>Track season announcements with clean RSS feeds.</h1>
+      <p class="subtitle">Browse shows, copy one-click feed links, or export an OPML bundle for your reader in seconds.</p>
+      <div class="hero-stats" aria-hidden="true">
+        <span class="stat-chip">Built from TVmaze data</span>
+        <span class="stat-chip">Daily-friendly updates</span>
+        <span class="stat-chip">Fast copy + OPML export</span>
+      </div>
     </header>
 
-    <section class="main-panel">
-      <div class="search-container">
-        <label class="filter-label" for="filter">Search Shows</label>
-        <input id="filter" type="text" placeholder="Find your favorite show or filter by status...">
-      </div>
-      <p id="count">0 shows available</p>
-
-      <div class="bulk-section">
-        <span id="selected-count">0 selected</span>
-        <div class="bulk-actions">
-          <button id="select-visible" class="bulk-btn" type="button">Select Visible</button>
-          <button id="clear-selected" class="bulk-btn" type="button">Clear Selection</button>
-          <button id="export-opml" class="bulk-btn" type="button" disabled>Export OPML</button>
+    <section class="main-panel" aria-labelledby="browse-heading">
+      <h2 id="browse-heading" class="toolbar-title">Browse and subscribe</h2>
+      <div class="toolbar">
+        <div class="search-container">
+          <label class="filter-label" for="filter">Search series</label>
+          <input id="filter" type="text" placeholder="Type a show title or status...">
+        </div>
+        <div class="bulk-section">
+          <div>
+            <p id="count">0 series available</p>
+            <span id="selected-count">0 selected</span>
+          </div>
+          <div class="bulk-actions">
+            <button id="select-visible" class="bulk-btn" type="button">Select Visible</button>
+            <button id="clear-selected" class="bulk-btn" type="button">Clear Selection</button>
+            <button id="export-opml" class="bulk-btn" type="button" disabled>Export OPML</button>
+          </div>
         </div>
       </div>
-
       <div id="list" class="shows-list" aria-live="polite"></div>
     </section>
 
-    <section class="info-section">
-      <h2>How it works</h2>
-      <p>Click the <strong>RSS</strong> button on any show to copy its feed URL. Paste it into your favorite RSS reader (Feedly, NetNewsWire, etc.) to get notifications whenever new seasons appear.</p>
-      <p><strong>Updates come from TVmaze data</strong> – typically announced before or around official air dates. We respect their API rate limits and check for updates regularly.</p>
+    <section class="info-section" aria-labelledby="how-it-works-heading">
+      <h2 id="how-it-works-heading">How this works</h2>
+      <p>Click RSS on any series to copy its feed URL and paste it into Feedly, NetNewsWire, Inoreader, or any RSS app.</p>
+      <p>Metadata is generated from TVmaze, and this project intentionally keeps update pacing friendly to public API limits.</p>
     </section>
 
-    <section class="info-section">
-      <h2>✨ Missing a show?</h2>
-      <p>We can't include every show, but you have several options to get your favorite series added:</p>
+    <section class="info-section" aria-labelledby="missing-show-heading">
+      <h2 id="missing-show-heading">Cannot find your series?</h2>
+      <p>Sometimes a show is missing because it is brand new, named differently on TVmaze, or simply not requested yet.</p>
+      <ul class="reasons">
+        <li>Title mismatch: regional titles and punctuation can differ.</li>
+        <li>New or unreleased shows may not be listed yet in source metadata.</li>
+        <li>Community list curation means requests and contributions matter.</li>
+      </ul>
       <div class="cta-group">
-        <div class="cta-card">
-          <h3>Open an Issue</h3>
-          <p>Request a show to be added to the tracker.</p>
-          <a href="#" id="issue-link" class="cta-button" target="_blank" rel="noopener">Create Request</a>
-        </div>
-        <div class="cta-card">
-          <h3>Submit a Pull Request</h3>
-          <p>Contribute directly by adding shows to shows.json.</p>
+        <article class="cta-card">
+          <h3>Open an issue</h3>
+          <p>Ask for a show to be added. Include the title and TVmaze link if you have it.</p>
+          <a href="#" id="issue-link" class="cta-button" target="_blank" rel="noopener">Request a Series</a>
+        </article>
+        <article class="cta-card">
+          <h3>Submit a pull request</h3>
+          <p>Add the show yourself in shows.json and open a PR for review.</p>
           <a href="#" id="pr-link" class="cta-button" target="_blank" rel="noopener">Create Pull Request</a>
-        </div>
-        <div class="cta-card">
-          <h3>Fork & Customize</h3>
-          <p>Create your own version with all your shows. The project is MIT licensed.</p>
+        </article>
+        <article class="cta-card">
+          <h3>Fork and build your own</h3>
+          <p>This project uses the MIT license, so you can fork it and customize your own version freely.</p>
           <a href="#" id="fork-link" class="cta-button" target="_blank" rel="noopener">Fork on GitHub</a>
-        </div>
+        </article>
       </div>
     </section>
 
     <footer>
-      <span>📡 <a href="https://www.tvmaze.com/api" target="_blank" rel="noopener">Data provided by TVmaze</a></span>
-      <span>💻 <a id="repo-link" href="#" target="_blank" rel="noopener">View on GitHub</a></span>
-      <span>📄 <a href="https://github.com/joetul/TV-Season-Tracker-RSS/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a></span>
+      <span>Data source: <a href="https://www.tvmaze.com/api" target="_blank" rel="noopener">TVmaze API</a></span>
+      <span>Project: <a id="repo-link" href="#" target="_blank" rel="noopener">GitHub repository</a></span>
+      <span>License: <a href="https://github.com/joetul/TV-Season-Tracker-RSS/blob/main/LICENSE" target="_blank" rel="noopener">MIT</a></span>
     </footer>
   </div>
 
@@ -541,6 +662,7 @@
     const selectVisibleEl = document.getElementById("select-visible");
     const clearSelectedEl = document.getElementById("clear-selected");
     const exportOpmlEl = document.getElementById("export-opml");
+    const fallbackRepoUrl = "https://github.com/joetul/TV-Season-Tracker-RSS";
 
     const state = {
       allShows: [],
@@ -572,7 +694,7 @@
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
         .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
+        .replace(/\"/g, "&quot;")
         .replace(/'/g, "&apos;");
     }
 
@@ -646,12 +768,12 @@
 
     function render() {
       listEl.textContent = "";
-      countEl.textContent = `${state.filtered.length} shows available`;
+      countEl.textContent = `${state.filtered.length} series available`;
 
       if (!state.filtered.length) {
         const empty = document.createElement("div");
         empty.className = "empty-state";
-        empty.innerHTML = "<p>No shows match your search. Try a different filter or add one you love! →</p>";
+        empty.innerHTML = "<p>No series match your search yet. Try another keyword or open a request below.</p>";
         listEl.appendChild(empty);
         return;
       }
@@ -725,16 +847,16 @@
         const button = document.createElement("button");
         button.type = "button";
         button.className = "rss-btn";
-        button.textContent = "RSS";
+        button.textContent = "Copy RSS";
         button.addEventListener("click", async () => {
           try {
             await navigator.clipboard.writeText(show.feed_url);
             button.classList.add("copied");
-            button.textContent = "✓ Copied!";
+            button.textContent = "Copied";
             setTimeout(() => {
               button.classList.remove("copied");
-              button.textContent = "RSS";
-            }, 2000);
+              button.textContent = "Copy RSS";
+            }, 1800);
           } catch (error) {
             window.open(show.feed_url, "_blank", "noopener");
           }
@@ -786,15 +908,13 @@
 
       repoLink.href = repoUrl;
       issueLink.href = `${repoUrl}/issues/new?labels=show-request&title=Request%3A+Add+[SHOW+NAME]`;
-      prLink.href = `${repoUrl}#how-to-contribute`;
+      prLink.href = `${repoUrl}/pulls`;
       forkLink.href = `${repoUrl}/fork`;
     }
 
     async function init() {
       const detected = autoRepoUrl();
-      if (detected) {
-        setupGitHubLinks(detected);
-      }
+      setupGitHubLinks(detected || fallbackRepoUrl);
 
       try {
         const response = await fetch("./feeds/index.json", { cache: "no-store" });
@@ -810,7 +930,7 @@
         listEl.textContent = "";
         const empty = document.createElement("div");
         empty.className = "empty-state";
-        empty.innerHTML = "<p>🔄 Feeds are being generated. Please check back in a moment!</p>";
+        empty.innerHTML = "<p>Feeds are being generated. Please check back in a moment.</p>";
         listEl.appendChild(empty);
       }
     }
