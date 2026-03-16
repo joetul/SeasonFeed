@@ -15,7 +15,7 @@ You can also select multiple shows and export them as an OPML file for bulk impo
 
 Feeds are generated daily using data from the [TVmaze API](https://www.tvmaze.com/api).
 
-## Show Missing?
+## Missing a show?
 
 SeasonFeed is a community-maintained list. We can't simply add every show on TVmaze — only shows that are manually added and reviewed are included. This keeps the list focused and the feeds reliable.
 
