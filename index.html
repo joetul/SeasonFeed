@@ -304,10 +304,55 @@
     }
 
     .show-cb, #select-all-cb {
+      -webkit-appearance: none;
+      appearance: none;
       width: 16px;
       height: 16px;
-      accent-color: var(--purple);
+      border: 2px solid var(--comment);
+      border-radius: 3px;
+      background: transparent;
       cursor: pointer;
+      position: relative;
+      transition: all var(--transition);
+      flex-shrink: 0;
+    }
+
+    .show-cb:hover, #select-all-cb:hover {
+      border-color: var(--purple);
+    }
+
+    .show-cb:checked, #select-all-cb:checked {
+      background: var(--purple);
+      border-color: var(--purple);
+    }
+
+    .show-cb:checked::after, #select-all-cb:checked::after {
+      content: "";
+      position: absolute;
+      left: 3px;
+      top: 0px;
+      width: 5px;
+      height: 9px;
+      border: solid var(--bg);
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+
+    #select-all-cb:indeterminate {
+      border-color: var(--purple);
+      background: transparent;
+    }
+
+    #select-all-cb:indeterminate::after {
+      content: "";
+      position: absolute;
+      left: 2px;
+      top: 5px;
+      width: 8px;
+      height: 2px;
+      background: var(--purple);
+      transform: none;
+      border: none;
     }
 
     .empty-msg {
@@ -423,8 +468,6 @@
       <div class="actions-row">
         <div class="stats" id="stats">Loading...</div>
         <div class="bulk-actions">
-          <button id="btn-select-all" class="btn">Select Visible</button>
-          <button id="btn-clear" class="btn" disabled>Clear</button>
           <button id="btn-export" class="btn btn-primary" disabled>Export OPML</button>
         </div>
       </div>
@@ -473,8 +516,6 @@
       loading: document.getElementById("loading"),
       stats: document.getElementById("stats"),
       selectAllCb: document.getElementById("select-all-cb"),
-      btnSelectAll: document.getElementById("btn-select-all"),
-      btnClear: document.getElementById("btn-clear"),
       btnExport: document.getElementById("btn-export")
     };
 
@@ -525,20 +566,6 @@
         }
         updateBulkUI();
         updateCheckboxes();
-      });
-
-      els.btnSelectAll.addEventListener("click", () => {
-        getFilteredShows().forEach(s => selectedShows.add(getShowKey(s)));
-        updateBulkUI();
-        updateCheckboxes();
-        updateSelectAllCb();
-      });
-
-      els.btnClear.addEventListener("click", () => {
-        selectedShows.clear();
-        updateBulkUI();
-        updateCheckboxes();
-        updateSelectAllCb();
       });
 
       els.btnExport.addEventListener("click", exportOPML);
@@ -714,7 +741,6 @@
       const n = selectedShows.size;
       els.btnExport.textContent = n > 0 ? "Export OPML (" + n + ")" : "Export OPML";
       els.btnExport.disabled = n === 0;
-      els.btnClear.disabled = n === 0;
     }
 
     /* ── Copy RSS ── */
