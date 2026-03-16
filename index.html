@@ -313,7 +313,9 @@
     .btn-rss.copied {
       border-color: var(--green);
       color: var(--green);
-      background: rgba(80, 250, 123, 0.1);
+      background: rgba(80, 250, 123, 0.18);
+      box-shadow: 0 0 0 2px var(--green);
+      transition: box-shadow 0.2s, background 0.2s, color 0.2s;
     }
 
     .btn-link:hover {
@@ -732,6 +734,14 @@
           '<button class="btn-action btn-rss" data-url="' + feedUrl + '" title="Copy RSS URL">RSS</button>' +
           '<a href="' + tvmazeUrl + '" target="_blank" rel="noopener" class="btn-action btn-link" title="View on TVmaze">&#8599;</a>' +
         '</td>';
+      // Add row click for selection
+      tr.addEventListener("click", function(e) {
+        // Ignore clicks on actions or checkbox
+        if (e.target.closest(".btn-action") || e.target.classList.contains("show-cb")) return;
+        const cb = tr.querySelector(".show-cb");
+        cb.checked = !cb.checked;
+        cb.dispatchEvent(new Event("change", { bubbles: true }));
+      });
       return tr;
     }
 
@@ -769,9 +779,8 @@
         return;
       }
       navigator.clipboard.writeText(url).then(() => {
-        btn.textContent = "Copied!";
         btn.classList.add("copied");
-        setTimeout(() => { btn.textContent = "RSS"; btn.classList.remove("copied"); }, 2000);
+        setTimeout(() => { btn.classList.remove("copied"); }, 1200);
       }).catch(() => {
         window.open(url, "_blank");
       });
