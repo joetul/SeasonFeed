@@ -20,8 +20,8 @@ Feeds are generated daily using data from the [TVmaze API](https://www.tvmaze.co
 
 If a show you want isn't listed:
 
-- **[Open an issue](https://github.com/joetul/SeasonFeed/issues/new?labels=show-request&title=Request%3A+Add+[SHOW+NAME])**  include the show title and a TVmaze link if possible.
-- **[Submit a PR](https://github.com/joetul/SeasonFeed/pulls)**  add the show to `shows.json` and open a pull request.
+- **[Open an issue](https://github.com/joetul/SeasonFeed/issues/new?labels=show-request&title=Request%3A+Add+[SHOW+NAME])** - include the show title and a TVmaze link if possible.
+- **[Submit a PR](https://github.com/joetul/SeasonFeed/pulls)** - add the show to `shows.json` and open a pull request.
 
 Shows can be added by name or with an explicit TVmaze ID:
 
