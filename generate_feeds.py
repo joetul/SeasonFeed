@@ -223,8 +223,8 @@ def compute_last_build_date(show_data, seasons):
 
 
 def build_feed(show_data, seasons, slug, site_url):
-    tvmaze_url = show_data.get("url") or f"https://www.tvmaze.com/shows/{show_data.get('id')}"
     show_name = show_data.get("name", "Unknown Show")
+    feed_url = f"{site_url}/feeds/{slug}.xml"
     search_url = watch_search_url(show_name)
 
     rss = ET.Element("rss", {"version": "2.0"})
@@ -234,7 +234,7 @@ def build_feed(show_data, seasons, slug, site_url):
     ET.SubElement(channel, "description").text = (
         f"New season notifications for {show_name} from TVmaze metadata."
     )
-    ET.SubElement(channel, "link").text = search_url
+    ET.SubElement(channel, "link").text = feed_url
     ET.SubElement(channel, "language").text = "en"
     ET.SubElement(channel, "lastBuildDate").text = compute_last_build_date(show_data, seasons)
 
@@ -242,7 +242,7 @@ def build_feed(show_data, seasons, slug, site_url):
         channel,
         f"{{{ATOM_NS}}}link",
         {
-            "href": f"{site_url}/feeds/{slug}.xml",
+            "href": feed_url,
             "rel": "self",
             "type": "application/rss+xml",
         },
@@ -263,13 +263,14 @@ def build_feed(show_data, seasons, slug, site_url):
         ET.SubElement(item, "title").text = f"Season {number} — Premieres {premiere}"
         ET.SubElement(item, "description").text = (
             f"Premiere: {premiere} | Finale: {finale} | Episodes: {episode_text} | Network: {show_network}"
+            f"\nWhere to watch search: {search_url}"
         )
 
         guid = ET.SubElement(item, "guid", {"isPermaLink": "false"})
         guid.text = f"tv-season-rss:{slug}:s{number}"
 
         ET.SubElement(item, "pubDate").text = date_to_rfc822(season.get("premiereDate"))
-        ET.SubElement(item, "link").text = search_url
+        ET.SubElement(item, "link").text = feed_url
 
     tree = ET.ElementTree(rss)
     ET.indent(tree, space="  ")
