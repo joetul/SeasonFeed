@@ -1,35 +1,27 @@
 # TV Season Tracker RSS
 
-Generate RSS feeds for upcoming TV seasons.
+Never miss a new TV season. Subscribe to RSS feeds for your favorite shows and get notified when a new season is announced.
 
-This project tracks shows from TVmaze data and publishes one feed per show in `feeds/`.
+**Live site:** [joetul.github.io/TV-Season-Tracker-RSS](https://joetul.github.io/TV-Season-Tracker-RSS/)
 
 ## How It Works
 
-- `shows.json` defines the shows to track.
-- `generate_feeds.py` fetches TV metadata and builds feed files.
-- `feeds/index.json` is the feed directory used by `index.html`.
-- `data/state.json` stores lightweight state between runs.
+1. Browse the show list on the site.
+2. Click **Copy RSS** to grab a feed URL.
+3. Paste it into your RSS reader (Feedly, Inoreader, NetNewsWire, etc.).
 
-## Project Structure
+You can also select multiple shows and export them as an OPML file for bulk import.
 
-```text
-.
-├── generate_feeds.py
-├── shows.json
-├── index.html
-├── feeds/
-│   ├── index.json
-│   └── *.xml
-└── data/
-    └── state.json
-```
+Feeds are generated daily using data from the [TVmaze API](https://www.tvmaze.com/api).
 
-## Shows Configuration
+## Show Missing?
 
-`shows.json` supports either a plain show name or an explicit `tvmaze_id`.
+If a show you want isn't listed:
 
-Example:
+- **[Open an issue](https://github.com/joetul/TV-Season-Tracker-RSS/issues/new?labels=show-request&title=Request%3A+Add+[SHOW+NAME])** — include the show title and a TVmaze link if possible.
+- **[Submit a PR](https://github.com/joetul/TV-Season-Tracker-RSS/pulls)** — add the show to `shows.json` and open a pull request.
+
+Shows can be added by name or with an explicit TVmaze ID:
 
 ```json
 {
@@ -40,25 +32,6 @@ Example:
 }
 ```
 
-## Output
-
-- Per-show RSS files are written to `feeds/<show-slug>.xml`.
-- The landing page reads `feeds/index.json`.
-
-## TVmaze API Pacing
-
-This generator follows TVmaze's public guidance of at least `20 calls / 10 seconds` per IP by default.
-
-- Default pacing: `0.6s` between requests (about `16.7 calls / 10s`).
-- On HTTP `429`, retries are backed off adaptively (uses `Retry-After` header when provided, otherwise exponential backoff).
-
-Optional environment variables:
-
-- `TVMAZE_MIN_REQUEST_INTERVAL_SECONDS` (default: `0.6`)
-- `TVMAZE_RETRY_429_MIN_SECONDS` (default: `4`)
-- `TVMAZE_RETRY_429_MAX_SECONDS` (default: `20`)
-- `TVMAZE_MAX_429_RETRIES` (default: `6`)
-
 ## License
 
-MIT. See `LICENSE`.
+MIT
