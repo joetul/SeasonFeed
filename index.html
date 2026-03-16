@@ -435,6 +435,91 @@
 
     .search-box input:focus ~ .kbd-hint { opacity: 0; }
 
+    /* ── Intro Banner ── */
+    .intro-banner {
+      max-width: var(--max-width);
+      margin: 1rem auto 0;
+      padding: 0 1.5rem;
+    }
+
+    .intro-banner-inner {
+      background: rgba(189, 147, 249, 0.08);
+      border: 1px solid rgba(189, 147, 249, 0.2);
+      border-radius: var(--border-radius);
+      padding: 1rem 1.25rem;
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .intro-banner-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .intro-banner h2 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--purple);
+      margin-bottom: 0.35rem;
+    }
+
+    .intro-banner p {
+      font-size: 0.82rem;
+      color: var(--fg-muted);
+      line-height: 1.55;
+      margin-bottom: 0.35rem;
+    }
+
+    .intro-banner p:last-child {
+      margin-bottom: 0;
+    }
+
+    .intro-banner .highlight {
+      color: var(--fg);
+      font-weight: 500;
+    }
+
+    .intro-banner .link {
+      color: var(--pink);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .intro-banner .link:hover {
+      text-decoration: underline;
+    }
+
+    .intro-dismiss {
+      background: none;
+      border: 1px solid rgba(189, 147, 249, 0.25);
+      border-radius: var(--border-radius);
+      color: var(--comment);
+      font-size: 0.75rem;
+      font-family: inherit;
+      font-weight: 600;
+      padding: 0.3rem 0.65rem;
+      cursor: pointer;
+      transition: var(--transition);
+      white-space: nowrap;
+      flex-shrink: 0;
+      align-self: center;
+    }
+
+    .intro-dismiss:hover {
+      color: var(--fg);
+      border-color: var(--purple);
+      background: rgba(189, 147, 249, 0.1);
+    }
+
+    .intro-banner[hidden] { display: none; }
+
+    @media (max-width: 768px) {
+      .intro-banner { padding: 0 0.5rem; margin-top: 0.75rem; }
+      .intro-banner-inner { flex-direction: column; gap: 0.65rem; padding: 0.85rem 1rem; }
+      .intro-dismiss { align-self: flex-end; }
+    }
+
     /* ── Loading skeleton ── */
     .loading-indicator {
       text-align: center;
@@ -485,6 +570,17 @@
     </div>
   </header>
 
+  <div class="intro-banner" id="intro-banner">
+    <div class="intro-banner-inner">
+      <div class="intro-banner-content">
+        <h2>Never miss a new season</h2>
+        <p>SeasonFeed gives you an <span class="highlight">RSS feed for each TV show</span> that updates when a new season is announced. Copy a show's feed URL into your favorite RSS reader, or select multiple shows and export them all at once as an OPML file.</p>
+        <p>This is a <span class="highlight">community-curated list</span> &mdash; if your show is missing, <a class="link" href="https://github.com/joetul/SeasonFeed/issues/new?labels=show-request&title=Request%3A+Add+[SHOW+NAME]" target="_blank" rel="noopener">request it</a> and it'll be added.</p>
+      </div>
+      <button class="intro-dismiss" id="intro-dismiss">Got it</button>
+    </div>
+  </div>
+
   <main class="main-content">
     <table class="shows-table" id="shows-table">
       <thead>
@@ -529,6 +625,19 @@
       selectAllCb: document.getElementById("select-all-cb"),
       btnExport: document.getElementById("btn-export")
     };
+
+    /* ── Intro Banner ── */
+    (function() {
+      const banner = document.getElementById("intro-banner");
+      const dismiss = document.getElementById("intro-dismiss");
+      if (localStorage.getItem("sf-intro-dismissed")) {
+        banner.hidden = true;
+      }
+      dismiss.addEventListener("click", function() {
+        banner.hidden = true;
+        localStorage.setItem("sf-intro-dismissed", "1");
+      });
+    })();
 
     /* ── Init ── */
     function init() {
