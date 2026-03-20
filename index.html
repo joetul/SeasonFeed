@@ -78,11 +78,6 @@
       line-height: 1;
     }
 
-    .site-subtitle {
-      font-size: 0.8rem;
-      color: var(--comment);
-    }
-
     .missing-show-link {
       display: inline-flex;
       align-items: center;
@@ -415,25 +410,6 @@
       .show-mobile-meta { display: none !important; }
     }
 
-    /* ── Kbd hint ── */
-    .kbd-hint {
-      position: absolute;
-      right: 0.6rem;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 0.65rem;
-      color: var(--comment);
-      background: var(--bg-alt);
-      padding: 0.1rem 0.35rem;
-      border-radius: 3px;
-      border: 1px solid var(--comment);
-      pointer-events: none;
-      opacity: 0.6;
-      transition: opacity var(--transition);
-    }
-
-    .search-box input:focus ~ .kbd-hint { opacity: 0; }
-
     /* ── Intro Banner ── */
     .intro-banner {
       max-width: var(--max-width);
@@ -561,7 +537,6 @@
         <div class="search-box">
           <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           <input type="text" id="search" placeholder="Search shows..." autofocus autocomplete="off">
-          <!-- Keyboard shortcut hint removed -->
         </div>
         <div class="stats" id="stats">Loading...</div>
         <button id="btn-export" class="btn btn-primary" disabled>Export OPML</button>
@@ -574,7 +549,7 @@
       <div class="intro-banner-content">
         <h2>Never miss a new season</h2>
         <p>SeasonFeed gives you an <span class="highlight">RSS feed for each TV show</span> that updates when a new season has a premiere date added to TVmaze. Copy a show's feed URL into your favorite RSS reader, or select multiple shows and export them all at once as an OPML file.</p>
-        <p>This is a <span class="highlight">community-curated list</span> &mdash; if your show is missing, <a class="link" href="https://github.com/joetul/SeasonFeed?tab=readme-ov-file#show-missing" target="_blank" rel="noopener">request it</a> and it'll be added.</p>
+        <p>This is a <span class="highlight">community-curated list</span> &mdash; if your show is missing, <a class="link" href="https://github.com/joetul/SeasonFeed?tab=readme-ov-file#missing-a-show" target="_blank" rel="noopener">request it</a> and it'll be added.</p>
       </div>
       <button class="intro-dismiss" id="intro-dismiss">Got it</button>
     </div>

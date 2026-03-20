@@ -6,12 +6,12 @@ import json
 import os
 import re
 import time
-from datetime import datetime, timezone
-from pathlib import Path
 import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
+from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
@@ -101,6 +101,7 @@ def network_name(show_data):
     network = show_data.get("network") or {}
     web_channel = show_data.get("webChannel") or {}
     return network.get("name") or web_channel.get("name") or "Unknown"
+
 
 def update_page_url(site_url, slug, season_number_value):
     return f"{site_url}/updates/{slug}-s{season_number_value}.html"
