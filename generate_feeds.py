@@ -271,7 +271,7 @@ def format_date_human(date_text):
 def build_item_description(premiere, finale, episode_text):
     p = format_date_human(premiere)
     f = format_date_human(finale)
-    return f"Premiere: {p}\nFinale: {f}\nEpisodes: {episode_text}"
+    return f"Premiere: {p}<br>Finale: {f}<br>Episodes: {episode_text}"
 
 
 def build_feed(show_data, seasons, slug, site_url):
