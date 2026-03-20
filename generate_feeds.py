@@ -240,15 +240,14 @@ def format_date_human(date_text):
         return date_text
 
 
-def build_item_description(premiere, finale, episode_text, season_url):
+def build_item_description(premiere, finale, episode_text):
     p = format_date_human(premiere)
     f = format_date_human(finale)
-    return f"Premiere: {p}\nFinale: {f}\nEpisodes: {episode_text}\n\n{season_url}"
+    return f"Premiere: {p}\nFinale: {f}\nEpisodes: {episode_text}"
 
 
 def build_feed(show_data, seasons, slug, site_url):
     show_name = show_data.get("name", "Unknown Show")
-    tvmaze_url = show_data.get("url") or f"https://www.tvmaze.com/shows/{show_data.get('id')}"
     feed_url = f"{site_url}/feeds/{slug}.xml"
 
     rss = ET.Element("rss", {"version": "2.0"})
@@ -258,7 +257,7 @@ def build_feed(show_data, seasons, slug, site_url):
     ET.SubElement(channel, "description").text = (
         f"New season notifications for {show_name} from TVmaze metadata."
     )
-    ET.SubElement(channel, "link").text = tvmaze_url
+    ET.SubElement(channel, "link").text = feed_url
     ET.SubElement(channel, "language").text = "en"
     ET.SubElement(channel, "lastBuildDate").text = compute_last_build_date(seasons)
 
@@ -280,14 +279,12 @@ def build_feed(show_data, seasons, slug, site_url):
         finale = season.get("endDate") or "TBD"
         episode_count = season.get("episodeOrder")
         episode_text = str(episode_count) if episode_count is not None else "Unknown"
-        season_url = season.get("url") or tvmaze_url
 
         item = ET.SubElement(channel, "item")
         ET.SubElement(item, "title").text = f"{show_name} — Season {number}"
-        ET.SubElement(item, "description").text = build_item_description(premiere, finale, episode_text, season_url)
+        ET.SubElement(item, "description").text = build_item_description(premiere, finale, episode_text)
         ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = f"seasonfeed:{slug}:s{number}"
         ET.SubElement(item, "pubDate").text = date_to_rfc822(season.get("premiereDate"))
-        ET.SubElement(item, "link").text = season_url
 
     tree = ET.ElementTree(rss)
     ET.indent(tree, space="  ")
