@@ -3,7 +3,7 @@
   <channel>
     <title>Alien: Earth Season Alerts</title>
     <description>New season notifications for Alien: Earth from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/52336/alien-earth</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/alien-earth.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 12 Aug 2025 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/alien-earth.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>Alien: Earth — Season 1</title>
       <description>Premiere: 12 August 2025
 Finale: 23 September 2025
-Episodes: 8
-
-https://www.tvmaze.com/seasons/117565/alien-earth-season-1</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:alien-earth:s1</guid>
       <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/117565/alien-earth-season-1</link>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
   <channel>
     <title>Dopesick Season Alerts</title>
     <description>New season notifications for Dopesick from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/48731/dopesick</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/dopesick.xml</link>
     <language>en</language>
     <lastBuildDate>Wed, 13 Oct 2021 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/dopesick.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>Dopesick — Season 1</title>
       <description>Premiere: 13 October 2021
 Finale: 17 November 2021
-Episodes: 8
-
-https://www.tvmaze.com/seasons/111043/dopesick-season-1</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:dopesick:s1</guid>
       <pubDate>Wed, 13 Oct 2021 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/111043/dopesick-season-1</link>
     </item>
   </channel>
 </rss>

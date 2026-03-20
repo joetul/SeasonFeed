@@ -3,7 +3,7 @@
   <channel>
     <title>Echo Season Alerts</title>
     <description>New season notifications for Echo from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/58950/echo</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/echo.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 09 Jan 2024 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/echo.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>Echo — Season 1</title>
       <description>Premiere: 9 January 2024
 Finale: 9 January 2024
-Episodes: 5
-
-https://www.tvmaze.com/seasons/131758/echo-season-1</description>
+Episodes: 5</description>
       <guid isPermaLink="false">seasonfeed:echo:s1</guid>
       <pubDate>Tue, 09 Jan 2024 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/131758/echo-season-1</link>
     </item>
   </channel>
 </rss>

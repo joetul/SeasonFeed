@@ -3,7 +3,7 @@
   <channel>
     <title>The Old Man Season Alerts</title>
     <description>New season notifications for The Old Man from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/43155/the-old-man</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/the-old-man.xml</link>
     <language>en</language>
     <lastBuildDate>Thu, 12 Sep 2024 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/the-old-man.xml" rel="self" type="application/rss+xml" />
@@ -11,23 +11,17 @@
       <title>The Old Man — Season 2</title>
       <description>Premiere: 12 September 2024
 Finale: 24 October 2024
-Episodes: 8
-
-https://www.tvmaze.com/seasons/153303/the-old-man-season-2</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:the-old-man:s2</guid>
       <pubDate>Thu, 12 Sep 2024 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/153303/the-old-man-season-2</link>
     </item>
     <item>
       <title>The Old Man — Season 1</title>
       <description>Premiere: 16 June 2022
 Finale: 21 July 2022
-Episodes: 7
-
-https://www.tvmaze.com/seasons/98631/the-old-man-season-1</description>
+Episodes: 7</description>
       <guid isPermaLink="false">seasonfeed:the-old-man:s1</guid>
       <pubDate>Thu, 16 Jun 2022 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/98631/the-old-man-season-1</link>
     </item>
   </channel>
 </rss>

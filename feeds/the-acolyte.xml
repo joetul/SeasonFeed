@@ -3,7 +3,7 @@
   <channel>
     <title>The Acolyte Season Alerts</title>
     <description>New season notifications for The Acolyte from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/52339/the-acolyte</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/the-acolyte.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 04 Jun 2024 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/the-acolyte.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>The Acolyte — Season 1</title>
       <description>Premiere: 4 June 2024
 Finale: 16 July 2024
-Episodes: 8
-
-https://www.tvmaze.com/seasons/117568/the-acolyte-season-1</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:the-acolyte:s1</guid>
       <pubDate>Tue, 04 Jun 2024 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/117568/the-acolyte-season-1</link>
     </item>
   </channel>
 </rss>

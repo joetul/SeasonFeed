@@ -3,7 +3,7 @@
   <channel>
     <title>Adolescence Season Alerts</title>
     <description>New season notifications for Adolescence from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/78570/adolescence</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/adolescence.xml</link>
     <language>en</language>
     <lastBuildDate>Thu, 13 Mar 2025 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/adolescence.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>Adolescence — Season 1</title>
       <description>Premiere: 13 March 2025
 Finale: 13 March 2025
-Episodes: 4
-
-https://www.tvmaze.com/seasons/172789/adolescence-season-1</description>
+Episodes: 4</description>
       <guid isPermaLink="false">seasonfeed:adolescence:s1</guid>
       <pubDate>Thu, 13 Mar 2025 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/172789/adolescence-season-1</link>
     </item>
   </channel>
 </rss>

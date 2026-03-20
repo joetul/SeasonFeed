@@ -3,7 +3,7 @@
   <channel>
     <title>Ahsoka Season Alerts</title>
     <description>New season notifications for Ahsoka from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/52343/ahsoka</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/ahsoka.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 22 Aug 2023 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/ahsoka.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>Ahsoka — Season 1</title>
       <description>Premiere: 22 August 2023
 Finale: 3 October 2023
-Episodes: 8
-
-https://www.tvmaze.com/seasons/117572/ahsoka-season-1</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:ahsoka:s1</guid>
       <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/117572/ahsoka-season-1</link>
     </item>
   </channel>
 </rss>

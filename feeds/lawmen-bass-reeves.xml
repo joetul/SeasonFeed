@@ -3,7 +3,7 @@
   <channel>
     <title>Lawmen: Bass Reeves Season Alerts</title>
     <description>New season notifications for Lawmen: Bass Reeves from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/66544/lawmen-bass-reeves</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/lawmen-bass-reeves.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 05 Nov 2023 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/lawmen-bass-reeves.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>Lawmen: Bass Reeves — Season 1</title>
       <description>Premiere: 5 November 2023
 Finale: 17 December 2023
-Episodes: 8
-
-https://www.tvmaze.com/seasons/147941/lawmen-bass-reeves-season-1</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:lawmen-bass-reeves:s1</guid>
       <pubDate>Sun, 05 Nov 2023 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/147941/lawmen-bass-reeves-season-1</link>
     </item>
   </channel>
 </rss>

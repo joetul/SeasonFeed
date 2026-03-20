@@ -3,7 +3,7 @@
   <channel>
     <title>The Pitt Season Alerts</title>
     <description>New season notifications for The Pitt from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/75632/the-pitt</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/the-pitt.xml</link>
     <language>en</language>
     <lastBuildDate>Thu, 08 Jan 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/the-pitt.xml" rel="self" type="application/rss+xml" />
@@ -11,23 +11,17 @@
       <title>The Pitt — Season 2</title>
       <description>Premiere: 8 January 2026
 Finale: 16 April 2026
-Episodes: 15
-
-https://www.tvmaze.com/seasons/181771/the-pitt-season-2</description>
+Episodes: 15</description>
       <guid isPermaLink="false">seasonfeed:the-pitt:s2</guid>
       <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/181771/the-pitt-season-2</link>
     </item>
     <item>
       <title>The Pitt — Season 1</title>
       <description>Premiere: 9 January 2025
 Finale: 10 April 2025
-Episodes: 15
-
-https://www.tvmaze.com/seasons/166199/the-pitt-season-1</description>
+Episodes: 15</description>
       <guid isPermaLink="false">seasonfeed:the-pitt:s1</guid>
       <pubDate>Thu, 09 Jan 2025 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/166199/the-pitt-season-1</link>
     </item>
   </channel>
 </rss>

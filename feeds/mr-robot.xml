@@ -3,7 +3,7 @@
   <channel>
     <title>Mr. Robot Season Alerts</title>
     <description>New season notifications for Mr. Robot from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/1871/mr-robot</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/mr-robot.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 06 Oct 2019 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/mr-robot.xml" rel="self" type="application/rss+xml" />
@@ -11,45 +11,33 @@
       <title>Mr. Robot — Season 4</title>
       <description>Premiere: 6 October 2019
 Finale: 22 December 2019
-Episodes: 13
-
-https://www.tvmaze.com/seasons/88400/mr-robot-season-4</description>
+Episodes: 13</description>
       <guid isPermaLink="false">seasonfeed:mr-robot:s4</guid>
       <pubDate>Sun, 06 Oct 2019 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/88400/mr-robot-season-4</link>
     </item>
     <item>
       <title>Mr. Robot — Season 3</title>
       <description>Premiere: 11 October 2017
 Finale: 13 December 2017
-Episodes: 10
-
-https://www.tvmaze.com/seasons/62940/mr-robot-season-3</description>
+Episodes: 10</description>
       <guid isPermaLink="false">seasonfeed:mr-robot:s3</guid>
       <pubDate>Wed, 11 Oct 2017 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/62940/mr-robot-season-3</link>
     </item>
     <item>
       <title>Mr. Robot — Season 2</title>
       <description>Premiere: 13 July 2016
 Finale: 21 September 2016
-Episodes: 12
-
-https://www.tvmaze.com/seasons/42629/mr-robot-season-2</description>
+Episodes: 12</description>
       <guid isPermaLink="false">seasonfeed:mr-robot:s2</guid>
       <pubDate>Wed, 13 Jul 2016 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/42629/mr-robot-season-2</link>
     </item>
     <item>
       <title>Mr. Robot — Season 1</title>
       <description>Premiere: 24 June 2015
 Finale: 2 September 2015
-Episodes: 10
-
-https://www.tvmaze.com/seasons/6899/mr-robot-season-1</description>
+Episodes: 10</description>
       <guid isPermaLink="false">seasonfeed:mr-robot:s1</guid>
       <pubDate>Wed, 24 Jun 2015 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/6899/mr-robot-season-1</link>
     </item>
   </channel>
 </rss>

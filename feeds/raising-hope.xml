@@ -3,7 +3,7 @@
   <channel>
     <title>Raising Hope Season Alerts</title>
     <description>New season notifications for Raising Hope from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/580/raising-hope</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/raising-hope.xml</link>
     <language>en</language>
     <lastBuildDate>Fri, 15 Nov 2013 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/raising-hope.xml" rel="self" type="application/rss+xml" />
@@ -11,45 +11,33 @@
       <title>Raising Hope — Season 4</title>
       <description>Premiere: 15 November 2013
 Finale: 4 April 2014
-Episodes: 22
-
-https://www.tvmaze.com/seasons/2449/raising-hope-season-4</description>
+Episodes: 22</description>
       <guid isPermaLink="false">seasonfeed:raising-hope:s4</guid>
       <pubDate>Fri, 15 Nov 2013 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/2449/raising-hope-season-4</link>
     </item>
     <item>
       <title>Raising Hope — Season 3</title>
       <description>Premiere: 2 October 2012
 Finale: 28 March 2013
-Episodes: 22
-
-https://www.tvmaze.com/seasons/2448/raising-hope-season-3</description>
+Episodes: 22</description>
       <guid isPermaLink="false">seasonfeed:raising-hope:s3</guid>
       <pubDate>Tue, 02 Oct 2012 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/2448/raising-hope-season-3</link>
     </item>
     <item>
       <title>Raising Hope — Season 2</title>
       <description>Premiere: 20 September 2011
 Finale: 17 April 2012
-Episodes: 22
-
-https://www.tvmaze.com/seasons/2447/raising-hope-season-2</description>
+Episodes: 22</description>
       <guid isPermaLink="false">seasonfeed:raising-hope:s2</guid>
       <pubDate>Tue, 20 Sep 2011 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/2447/raising-hope-season-2</link>
     </item>
     <item>
       <title>Raising Hope — Season 1</title>
       <description>Premiere: 21 September 2010
 Finale: 17 May 2011
-Episodes: 22
-
-https://www.tvmaze.com/seasons/2446/raising-hope-season-1</description>
+Episodes: 22</description>
       <guid isPermaLink="false">seasonfeed:raising-hope:s1</guid>
       <pubDate>Tue, 21 Sep 2010 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/2446/raising-hope-season-1</link>
     </item>
   </channel>
 </rss>

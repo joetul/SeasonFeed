@@ -3,7 +3,7 @@
   <channel>
     <title>3 Body Problem Season Alerts</title>
     <description>New season notifications for 3 Body Problem from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/53277/3-body-problem</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/3-body-problem.xml</link>
     <language>en</language>
     <lastBuildDate>Thu, 21 Mar 2024 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/3-body-problem.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>3 Body Problem — Season 1</title>
       <description>Premiere: 21 March 2024
 Finale: 21 March 2024
-Episodes: 8
-
-https://www.tvmaze.com/seasons/119865/3-body-problem-season-1</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:3-body-problem:s1</guid>
       <pubDate>Thu, 21 Mar 2024 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/119865/3-body-problem-season-1</link>
     </item>
   </channel>
 </rss>

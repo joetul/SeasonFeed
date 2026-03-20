@@ -3,7 +3,7 @@
   <channel>
     <title>Star Wars: Tales of the Jedi Season Alerts</title>
     <description>New season notifications for Star Wars: Tales of the Jedi from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/61886/star-wars-tales-of-the-jedi</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/star-wars-tales-of-the-jedi.xml</link>
     <language>en</language>
     <lastBuildDate>Wed, 26 Oct 2022 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/star-wars-tales-of-the-jedi.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>Star Wars: Tales of the Jedi — Season 1</title>
       <description>Premiere: 26 October 2022
 Finale: 26 October 2022
-Episodes: 6
-
-https://www.tvmaze.com/seasons/138161/star-wars-tales-of-the-jedi-season-1</description>
+Episodes: 6</description>
       <guid isPermaLink="false">seasonfeed:star-wars-tales-of-the-jedi:s1</guid>
       <pubDate>Wed, 26 Oct 2022 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/138161/star-wars-tales-of-the-jedi-season-1</link>
     </item>
   </channel>
 </rss>

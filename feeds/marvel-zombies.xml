@@ -3,7 +3,7 @@
   <channel>
     <title>Marvel Zombies Season Alerts</title>
     <description>New season notifications for Marvel Zombies from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/58949/marvel-zombies</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/marvel-zombies.xml</link>
     <language>en</language>
     <lastBuildDate>Wed, 24 Sep 2025 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/marvel-zombies.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>Marvel Zombies — Season 1</title>
       <description>Premiere: 24 September 2025
 Finale: 24 September 2025
-Episodes: 4
-
-https://www.tvmaze.com/seasons/131757/marvel-zombies-season-1</description>
+Episodes: 4</description>
       <guid isPermaLink="false">seasonfeed:marvel-zombies:s1</guid>
       <pubDate>Wed, 24 Sep 2025 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/131757/marvel-zombies-season-1</link>
     </item>
   </channel>
 </rss>

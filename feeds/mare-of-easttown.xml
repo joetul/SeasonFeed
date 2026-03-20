@@ -3,7 +3,7 @@
   <channel>
     <title>Mare of Easttown Season Alerts</title>
     <description>New season notifications for Mare of Easttown from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/40546/mare-of-easttown</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/mare-of-easttown.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 18 Apr 2021 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/mare-of-easttown.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>Mare of Easttown — Season 1</title>
       <description>Premiere: 18 April 2021
 Finale: 30 May 2021
-Episodes: 7
-
-https://www.tvmaze.com/seasons/92991/mare-of-easttown-season-1</description>
+Episodes: 7</description>
       <guid isPermaLink="false">seasonfeed:mare-of-easttown:s1</guid>
       <pubDate>Sun, 18 Apr 2021 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/92991/mare-of-easttown-season-1</link>
     </item>
   </channel>
 </rss>

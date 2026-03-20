@@ -3,7 +3,7 @@
   <channel>
     <title>Hawkeye Season Alerts</title>
     <description>New season notifications for Hawkeye from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/43102/hawkeye</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/hawkeye.xml</link>
     <language>en</language>
     <lastBuildDate>Wed, 24 Nov 2021 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/hawkeye.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>Hawkeye — Season 1</title>
       <description>Premiere: 24 November 2021
 Finale: 22 December 2021
-Episodes: 6
-
-https://www.tvmaze.com/seasons/98496/hawkeye-season-1</description>
+Episodes: 6</description>
       <guid isPermaLink="false">seasonfeed:hawkeye:s1</guid>
       <pubDate>Wed, 24 Nov 2021 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/98496/hawkeye-season-1</link>
     </item>
   </channel>
 </rss>

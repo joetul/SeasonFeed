@@ -3,7 +3,7 @@
   <channel>
     <title>WandaVision Season Alerts</title>
     <description>New season notifications for WandaVision from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/41748/wandavision</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/wandavision.xml</link>
     <language>en</language>
     <lastBuildDate>Fri, 15 Jan 2021 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/wandavision.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>WandaVision — Season 1</title>
       <description>Premiere: 15 January 2021
 Finale: 5 March 2021
-Episodes: 9
-
-https://www.tvmaze.com/seasons/95589/wandavision-season-1</description>
+Episodes: 9</description>
       <guid isPermaLink="false">seasonfeed:wandavision:s1</guid>
       <pubDate>Fri, 15 Jan 2021 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/95589/wandavision-season-1</link>
     </item>
   </channel>
 </rss>

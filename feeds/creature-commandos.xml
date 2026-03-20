@@ -3,7 +3,7 @@
   <channel>
     <title>Creature Commandos Season Alerts</title>
     <description>New season notifications for Creature Commandos from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/66738/creature-commandos</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/creature-commandos.xml</link>
     <language>en</language>
     <lastBuildDate>Thu, 05 Dec 2024 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/creature-commandos.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>Creature Commandos — Season 1</title>
       <description>Premiere: 5 December 2024
 Finale: 9 January 2025
-Episodes: 7
-
-https://www.tvmaze.com/seasons/148327/creature-commandos-season-1</description>
+Episodes: 7</description>
       <guid isPermaLink="false">seasonfeed:creature-commandos:s1</guid>
       <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/148327/creature-commandos-season-1</link>
     </item>
   </channel>
 </rss>

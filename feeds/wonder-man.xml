@@ -3,7 +3,7 @@
   <channel>
     <title>Wonder Man Season Alerts</title>
     <description>New season notifications for Wonder Man from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/62569/wonder-man</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/wonder-man.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 27 Jan 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/wonder-man.xml" rel="self" type="application/rss+xml" />
@@ -11,12 +11,9 @@
       <title>Wonder Man — Season 1</title>
       <description>Premiere: 27 January 2026
 Finale: 27 January 2026
-Episodes: 8
-
-https://www.tvmaze.com/seasons/139701/wonder-man-season-1</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:wonder-man:s1</guid>
       <pubDate>Tue, 27 Jan 2026 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/139701/wonder-man-season-1</link>
     </item>
   </channel>
 </rss>

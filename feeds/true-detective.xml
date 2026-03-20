@@ -3,7 +3,7 @@
   <channel>
     <title>True Detective Season Alerts</title>
     <description>New season notifications for True Detective from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/5/true-detective</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/true-detective.xml</link>
     <language>en</language>
     <lastBuildDate>Sun, 14 Jan 2024 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/true-detective.xml" rel="self" type="application/rss+xml" />
@@ -11,45 +11,33 @@
       <title>True Detective — Season 4</title>
       <description>Premiere: 14 January 2024
 Finale: 18 February 2024
-Episodes: 6
-
-https://www.tvmaze.com/seasons/136634/true-detective-season-4</description>
+Episodes: 6</description>
       <guid isPermaLink="false">seasonfeed:true-detective:s4</guid>
       <pubDate>Sun, 14 Jan 2024 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/136634/true-detective-season-4</link>
     </item>
     <item>
       <title>True Detective — Season 3</title>
       <description>Premiere: 13 January 2019
 Finale: 24 February 2019
-Episodes: 8
-
-https://www.tvmaze.com/seasons/80138/true-detective-season-3</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:true-detective:s3</guid>
       <pubDate>Sun, 13 Jan 2019 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/80138/true-detective-season-3</link>
     </item>
     <item>
       <title>True Detective — Season 2</title>
       <description>Premiere: 21 June 2015
 Finale: 9 August 2015
-Episodes: 8
-
-https://www.tvmaze.com/seasons/6690/true-detective-season-2</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:true-detective:s2</guid>
       <pubDate>Sun, 21 Jun 2015 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/6690/true-detective-season-2</link>
     </item>
     <item>
       <title>True Detective — Season 1</title>
       <description>Premiere: 12 January 2014
 Finale: 9 March 2014
-Episodes: 8
-
-https://www.tvmaze.com/seasons/11/true-detective-season-1</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:true-detective:s1</guid>
       <pubDate>Sun, 12 Jan 2014 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/11/true-detective-season-1</link>
     </item>
   </channel>
 </rss>

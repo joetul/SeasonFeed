@@ -3,7 +3,7 @@
   <channel>
     <title>One Piece Season Alerts</title>
     <description>New season notifications for One Piece from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/46065/one-piece</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/one-piece.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 10 Mar 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/one-piece.xml" rel="self" type="application/rss+xml" />
@@ -11,23 +11,17 @@
       <title>One Piece — Season 2</title>
       <description>Premiere: 10 March 2026
 Finale: 10 March 2026
-Episodes: 8
-
-https://www.tvmaze.com/seasons/157253/one-piece-season-2</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:one-piece:s2</guid>
       <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/157253/one-piece-season-2</link>
     </item>
     <item>
       <title>One Piece — Season 1</title>
       <description>Premiere: 31 August 2023
 Finale: 31 August 2023
-Episodes: 8
-
-https://www.tvmaze.com/seasons/105594/one-piece-season-1</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:one-piece:s1</guid>
       <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/105594/one-piece-season-1</link>
     </item>
   </channel>
 </rss>

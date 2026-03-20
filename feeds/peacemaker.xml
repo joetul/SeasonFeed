@@ -3,7 +3,7 @@
   <channel>
     <title>Peacemaker Season Alerts</title>
     <description>New season notifications for Peacemaker from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/50603/peacemaker</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/peacemaker.xml</link>
     <language>en</language>
     <lastBuildDate>Thu, 21 Aug 2025 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/peacemaker.xml" rel="self" type="application/rss+xml" />
@@ -11,23 +11,17 @@
       <title>Peacemaker — Season 2</title>
       <description>Premiere: 21 August 2025
 Finale: 9 October 2025
-Episodes: 8
-
-https://www.tvmaze.com/seasons/148730/peacemaker-season-2</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:peacemaker:s2</guid>
       <pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/148730/peacemaker-season-2</link>
     </item>
     <item>
       <title>Peacemaker — Season 1</title>
       <description>Premiere: 13 January 2022
 Finale: 17 February 2022
-Episodes: 8
-
-https://www.tvmaze.com/seasons/114416/peacemaker-season-1</description>
+Episodes: 8</description>
       <guid isPermaLink="false">seasonfeed:peacemaker:s1</guid>
       <pubDate>Thu, 13 Jan 2022 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/114416/peacemaker-season-1</link>
     </item>
   </channel>
 </rss>

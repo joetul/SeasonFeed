@@ -3,7 +3,7 @@
   <channel>
     <title>Mythic Quest Season Alerts</title>
     <description>New season notifications for Mythic Quest from TVmaze metadata.</description>
-    <link>https://www.tvmaze.com/shows/41530/mythic-quest</link>
+    <link>https://joetul.github.io/SeasonFeed/feeds/mythic-quest.xml</link>
     <language>en</language>
     <lastBuildDate>Wed, 29 Jan 2025 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/mythic-quest.xml" rel="self" type="application/rss+xml" />
@@ -11,45 +11,33 @@
       <title>Mythic Quest — Season 4</title>
       <description>Premiere: 29 January 2025
 Finale: 18 April 2025
-Episodes: 10
-
-https://www.tvmaze.com/seasons/177412/mythic-quest-season-4</description>
+Episodes: 10</description>
       <guid isPermaLink="false">seasonfeed:mythic-quest:s4</guid>
       <pubDate>Wed, 29 Jan 2025 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/177412/mythic-quest-season-4</link>
     </item>
     <item>
       <title>Mythic Quest — Season 3</title>
       <description>Premiere: 11 November 2022
 Finale: 6 January 2023
-Episodes: 10
-
-https://www.tvmaze.com/seasons/140945/mythic-quest-season-3</description>
+Episodes: 10</description>
       <guid isPermaLink="false">seasonfeed:mythic-quest:s3</guid>
       <pubDate>Fri, 11 Nov 2022 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/140945/mythic-quest-season-3</link>
     </item>
     <item>
       <title>Mythic Quest — Season 2</title>
       <description>Premiere: 7 May 2021
 Finale: 25 June 2021
-Episodes: 9
-
-https://www.tvmaze.com/seasons/120648/mythic-quest-season-2</description>
+Episodes: 9</description>
       <guid isPermaLink="false">seasonfeed:mythic-quest:s2</guid>
       <pubDate>Fri, 07 May 2021 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/120648/mythic-quest-season-2</link>
     </item>
     <item>
       <title>Mythic Quest — Season 1</title>
       <description>Premiere: 7 February 2020
 Finale: 16 April 2021
-Episodes: 9
-
-https://www.tvmaze.com/seasons/95069/mythic-quest-season-1</description>
+Episodes: 9</description>
       <guid isPermaLink="false">seasonfeed:mythic-quest:s1</guid>
       <pubDate>Fri, 07 Feb 2020 00:00:00 GMT</pubDate>
-      <link>https://www.tvmaze.com/seasons/95069/mythic-quest-season-1</link>
     </item>
   </channel>
 </rss>
