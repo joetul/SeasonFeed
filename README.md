@@ -15,7 +15,7 @@ You can also select multiple shows and export them as an OPML file for bulk impo
 
 ## How It Works
 
-A script runs daily and fetches season data from the [TVmaze API](https://www.tvmaze.com/api) for every show in `shows.json`. It generates one RSS feed file per show and updates a JSON index. The site is a static HTML page hosted on GitHub Pages that reads the index and lets you browse, search, and copy feed URLs.
+A script runs daily and fetches season data from the [TVmaze API](https://www.tvmaze.com/api) for every show in `shows.json`. It generates one RSS feed per show, a small HTML page for each season (linked from the feed items), and a JSON index. The site is a static HTML page hosted on GitHub Pages that reads the index and lets you browse, search, and copy feed URLs.
 
 ## Missing a show?
 
