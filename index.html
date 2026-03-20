@@ -829,7 +829,7 @@
         '</td>' +
         '<td class="col-status"><span class="status-badge ' + statusClass + '">' + statusDisplay + '</span></td>' +
         '<td class="col-actions">' +
-          '<button class="btn-action btn-rss" data-url="' + feedUrl + '" title="Copy RSS URL">Copy RSS</button>' +
+          '<button class="btn-action btn-rss" data-url="' + feedUrl + '" title="Copy URL">Copy URL</button>' +
         '</td>';
       // Add row click for selection
       tr.addEventListener("click", function(e) {
@@ -878,7 +878,7 @@
       navigator.clipboard.writeText(url).then(() => {
         btn.textContent = "Copied!";
         btn.classList.add("copied");
-        setTimeout(() => { btn.textContent = "RSS URL"; btn.classList.remove("copied"); }, 2000);
+        setTimeout(() => { btn.textContent = "Copy URL"; btn.classList.remove("copied"); }, 2000);
       }).catch(() => {
         window.open(url, "_blank");
       });

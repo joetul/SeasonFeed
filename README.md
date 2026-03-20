@@ -5,15 +5,17 @@ Never miss a new TV season. Subscribe to RSS feeds for your favorite shows and g
 
 **Live site:** [joetul.github.io/SeasonFeed](https://joetul.github.io/SeasonFeed/)
 
-## How It Works
+## How to Use
 
 1. Browse the show list on the site.
-2. Click **Copy RSS** to grab a feed URL.
+2. Click **Copy URL** to grab a feed URL.
 3. Paste it into your RSS reader (FeedFlow, NetNewsWire, etc.).
 
 You can also select multiple shows and export them as an OPML file for bulk import.
 
-Feeds are generated daily using data from the [TVmaze API](https://www.tvmaze.com/api).
+## How It Works
+
+A script runs daily and fetches season data from the [TVmaze API](https://www.tvmaze.com/api) for every show in `shows.json`. It generates one RSS feed file per show and updates a JSON index. The site is a static HTML page hosted on GitHub Pages that reads the index and lets you browse, search, and copy feed URLs.
 
 ## Missing a show?
 
