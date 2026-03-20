@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Generate per-show RSS feeds for TV season updates using TVmaze."""
 
+import html
 import json
 import os
 import re
-import html
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -63,13 +63,9 @@ def now_iso_utc():
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def now_rfc822():
-    return datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
-
-
 def date_to_rfc822(date_text):
     if not date_text:
-        return now_rfc822()
+        return datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
     try:
         dt = datetime.strptime(date_text, "%Y-%m-%d").replace(tzinfo=timezone.utc)
         return dt.strftime("%a, %d %b %Y %H:%M:%S GMT")
@@ -86,15 +82,6 @@ def has_valid_premiere_date(season):
         return True
     except ValueError:
         return False
-
-
-def unix_to_rfc822(unix_value):
-    try:
-        value = int(unix_value)
-        dt = datetime.fromtimestamp(value, tz=timezone.utc)
-        return dt.strftime("%a, %d %b %Y %H:%M:%S GMT")
-    except (TypeError, ValueError, OSError):
-        return None
 
 
 def detect_site_url():
@@ -114,7 +101,6 @@ def network_name(show_data):
     network = show_data.get("network") or {}
     web_channel = show_data.get("webChannel") or {}
     return network.get("name") or web_channel.get("name") or "Unknown"
-
 
 def update_page_url(site_url, slug, season_number_value):
     return f"{site_url}/updates/{slug}-s{season_number_value}.html"
@@ -386,17 +372,15 @@ def main():
         if previous_latest is not None and latest > previous_latest:
             print(f"NEW SEASON DETECTED: {show_name} ({previous_latest} -> {latest})")
 
-        feed_url = f"{site_url}/feeds/{slug}.xml"
-
-        dated_seasons = [s for s in seasons if has_valid_premiere_date(s)]
-        for s in dated_seasons:
-            num = season_number(s)
-            premiere = s.get("premiereDate") or "TBD"
-            finale = s.get("endDate") or "TBD"
-            ep_count = s.get("episodeOrder")
-            ep_text = str(ep_count) if ep_count is not None else "Unknown"
-            page_name = f"{slug}-s{num}.html"
-            page_html = build_update_page(show_name, num, premiere, finale, ep_text)
+        dated_seasons = [season for season in seasons if has_valid_premiere_date(season)]
+        for season in dated_seasons:
+            number = season_number(season)
+            premiere = season.get("premiereDate") or "TBD"
+            finale = season.get("endDate") or "TBD"
+            episode_count = season.get("episodeOrder")
+            episode_text = str(episode_count) if episode_count is not None else "Unknown"
+            page_name = f"{slug}-s{number}.html"
+            page_html = build_update_page(show_name, number, premiere, finale, episode_text)
             page_path = UPDATES_DIR / page_name
             page_bytes = page_html.encode("utf-8")
             if not page_path.exists() or page_path.read_bytes() != page_bytes:
