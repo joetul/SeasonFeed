@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Death Note Season Alerts</title>
+    <description>New season notifications for Death Note. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/death-note.xml</link>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Oct 2006 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/death-note.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Death Note — Season 1</title>
+      <description>Premiere: 3 October 2006&lt;br&gt;Finale: 26 June 2007&lt;br&gt;Episodes: 37</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/death-note-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/death-note-s1.html</guid>
+      <pubDate>Tue, 03 Oct 2006 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

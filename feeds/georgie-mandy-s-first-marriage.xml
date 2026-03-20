@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Georgie &amp; Mandy's First Marriage Season Alerts</title>
+    <description>New season notifications for Georgie &amp; Mandy's First Marriage. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/georgie-mandy-s-first-marriage.xml</link>
+    <language>en</language>
+    <lastBuildDate>Thu, 16 Oct 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/georgie-mandy-s-first-marriage.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Georgie &amp; Mandy's First Marriage — Season 2</title>
+      <description>Premiere: 16 October 2025&lt;br&gt;Finale: 9 April 2026&lt;br&gt;Episodes: Unknown</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/georgie-mandy-s-first-marriage-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/georgie-mandy-s-first-marriage-s2.html</guid>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Georgie &amp; Mandy's First Marriage — Season 1</title>
+      <description>Premiere: 17 October 2024&lt;br&gt;Finale: 15 May 2025&lt;br&gt;Episodes: 22</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/georgie-mandy-s-first-marriage-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/georgie-mandy-s-first-marriage-s1.html</guid>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

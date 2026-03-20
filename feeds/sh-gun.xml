@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Shōgun Season Alerts</title>
-    <description>New season notifications for Shōgun from TVmaze metadata.</description>
+    <description>New season notifications for Shōgun. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/sh-gun.xml</link>
     <language>en</language>
     <lastBuildDate>Tue, 27 Feb 2024 00:00:00 GMT</lastBuildDate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>A Thousand Blows Season Alerts</title>
+    <description>New season notifications for A Thousand Blows. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/a-thousand-blows.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/a-thousand-blows.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Thousand Blows — Season 2</title>
+      <description>Premiere: 9 January 2026&lt;br&gt;Finale: 9 January 2026&lt;br&gt;Episodes: 6</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/a-thousand-blows-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/a-thousand-blows-s2.html</guid>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>A Thousand Blows — Season 1</title>
+      <description>Premiere: 21 February 2025&lt;br&gt;Finale: 21 February 2025&lt;br&gt;Episodes: 6</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/a-thousand-blows-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/a-thousand-blows-s1.html</guid>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

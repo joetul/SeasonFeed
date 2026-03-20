@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Shining Girls Season Alerts</title>
+    <description>New season notifications for Shining Girls. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/shining-girls.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Apr 2022 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/shining-girls.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shining Girls — Season 1</title>
+      <description>Premiere: 29 April 2022&lt;br&gt;Finale: 3 June 2022&lt;br&gt;Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/shining-girls-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/shining-girls-s1.html</guid>
+      <pubDate>Fri, 29 Apr 2022 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

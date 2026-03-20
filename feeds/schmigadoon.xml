@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Schmigadoon! Season Alerts</title>
+    <description>New season notifications for Schmigadoon!. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/schmigadoon.xml</link>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Apr 2023 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/schmigadoon.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schmigadoon! — Season 2</title>
+      <description>Premiere: 5 April 2023&lt;br&gt;Finale: 3 May 2023&lt;br&gt;Episodes: 6</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/schmigadoon-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/schmigadoon-s2.html</guid>
+      <pubDate>Wed, 05 Apr 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Schmigadoon! — Season 1</title>
+      <description>Premiere: 16 July 2021&lt;br&gt;Finale: 13 August 2021&lt;br&gt;Episodes: 6</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/schmigadoon-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/schmigadoon-s1.html</guid>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

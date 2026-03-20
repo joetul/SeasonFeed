@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Elementary Season Alerts</title>
+    <description>New season notifications for Elementary. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/elementary.xml</link>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 May 2019 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/elementary.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elementary — Season 7</title>
+      <description>Premiere: 23 May 2019&lt;br&gt;Finale: 15 August 2019&lt;br&gt;Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/elementary-s7.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/elementary-s7.html</guid>
+      <pubDate>Thu, 23 May 2019 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elementary — Season 6</title>
+      <description>Premiere: 30 April 2018&lt;br&gt;Finale: 17 September 2018&lt;br&gt;Episodes: 21</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/elementary-s6.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/elementary-s6.html</guid>
+      <pubDate>Mon, 30 Apr 2018 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elementary — Season 5</title>
+      <description>Premiere: 2 October 2016&lt;br&gt;Finale: 21 May 2017&lt;br&gt;Episodes: 24</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/elementary-s5.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/elementary-s5.html</guid>
+      <pubDate>Sun, 02 Oct 2016 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elementary — Season 4</title>
+      <description>Premiere: 5 November 2015&lt;br&gt;Finale: 8 May 2016&lt;br&gt;Episodes: 24</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/elementary-s4.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/elementary-s4.html</guid>
+      <pubDate>Thu, 05 Nov 2015 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elementary — Season 3</title>
+      <description>Premiere: 30 October 2014&lt;br&gt;Finale: 14 May 2015&lt;br&gt;Episodes: 24</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/elementary-s3.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/elementary-s3.html</guid>
+      <pubDate>Thu, 30 Oct 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elementary — Season 2</title>
+      <description>Premiere: 26 September 2013&lt;br&gt;Finale: 15 May 2014&lt;br&gt;Episodes: 24</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/elementary-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/elementary-s2.html</guid>
+      <pubDate>Thu, 26 Sep 2013 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Elementary — Season 1</title>
+      <description>Premiere: 27 September 2012&lt;br&gt;Finale: 16 May 2013&lt;br&gt;Episodes: 24</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/elementary-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/elementary-s1.html</guid>
+      <pubDate>Thu, 27 Sep 2012 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

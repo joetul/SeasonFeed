@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>House of Cards Season Alerts</title>
+    <description>New season notifications for House of Cards. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/house-of-cards.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 02 Nov 2018 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/house-of-cards.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>House of Cards — Season 6</title>
+      <description>Premiere: 2 November 2018&lt;br&gt;Finale: 2 November 2018&lt;br&gt;Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/house-of-cards-s6.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/house-of-cards-s6.html</guid>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>House of Cards — Season 5</title>
+      <description>Premiere: 30 May 2017&lt;br&gt;Finale: 30 May 2017&lt;br&gt;Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/house-of-cards-s5.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/house-of-cards-s5.html</guid>
+      <pubDate>Tue, 30 May 2017 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>House of Cards — Season 4</title>
+      <description>Premiere: 4 March 2016&lt;br&gt;Finale: 4 March 2016&lt;br&gt;Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/house-of-cards-s4.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/house-of-cards-s4.html</guid>
+      <pubDate>Fri, 04 Mar 2016 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>House of Cards — Season 3</title>
+      <description>Premiere: 27 February 2015&lt;br&gt;Finale: 27 February 2015&lt;br&gt;Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/house-of-cards-s3.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/house-of-cards-s3.html</guid>
+      <pubDate>Fri, 27 Feb 2015 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>House of Cards — Season 2</title>
+      <description>Premiere: 14 February 2014&lt;br&gt;Finale: 14 February 2014&lt;br&gt;Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/house-of-cards-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/house-of-cards-s2.html</guid>
+      <pubDate>Fri, 14 Feb 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>House of Cards — Season 1</title>
+      <description>Premiere: 1 February 2013&lt;br&gt;Finale: 1 February 2013&lt;br&gt;Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/house-of-cards-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/house-of-cards-s1.html</guid>
+      <pubDate>Fri, 01 Feb 2013 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

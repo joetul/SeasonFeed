@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Platonic Season Alerts</title>
+    <description>New season notifications for Platonic. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/platonic.xml</link>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 Aug 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/platonic.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Platonic — Season 2</title>
+      <description>Premiere: 6 August 2025&lt;br&gt;Finale: 1 October 2025&lt;br&gt;Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/platonic-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/platonic-s2.html</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Platonic — Season 1</title>
+      <description>Premiere: 24 May 2023&lt;br&gt;Finale: 12 July 2023&lt;br&gt;Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/platonic-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/platonic-s1.html</guid>
+      <pubDate>Wed, 24 May 2023 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

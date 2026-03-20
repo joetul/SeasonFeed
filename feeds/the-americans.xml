@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>The Americans Season Alerts</title>
+    <description>New season notifications for The Americans. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/the-americans.xml</link>
+    <language>en</language>
+    <lastBuildDate>Wed, 28 Mar 2018 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/the-americans.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Americans — Season 6</title>
+      <description>Premiere: 28 March 2018&lt;br&gt;Finale: 30 May 2018&lt;br&gt;Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-americans-s6.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-americans-s6.html</guid>
+      <pubDate>Wed, 28 Mar 2018 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Americans — Season 5</title>
+      <description>Premiere: 7 March 2017&lt;br&gt;Finale: 30 May 2017&lt;br&gt;Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-americans-s5.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-americans-s5.html</guid>
+      <pubDate>Tue, 07 Mar 2017 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Americans — Season 4</title>
+      <description>Premiere: 16 March 2016&lt;br&gt;Finale: 8 June 2016&lt;br&gt;Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-americans-s4.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-americans-s4.html</guid>
+      <pubDate>Wed, 16 Mar 2016 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Americans — Season 3</title>
+      <description>Premiere: 28 January 2015&lt;br&gt;Finale: 22 April 2015&lt;br&gt;Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-americans-s3.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-americans-s3.html</guid>
+      <pubDate>Wed, 28 Jan 2015 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Americans — Season 2</title>
+      <description>Premiere: 26 February 2014&lt;br&gt;Finale: 21 May 2014&lt;br&gt;Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-americans-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-americans-s2.html</guid>
+      <pubDate>Wed, 26 Feb 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Americans — Season 1</title>
+      <description>Premiere: 30 January 2013&lt;br&gt;Finale: 1 May 2013&lt;br&gt;Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-americans-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-americans-s1.html</guid>
+      <pubDate>Wed, 30 Jan 2013 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

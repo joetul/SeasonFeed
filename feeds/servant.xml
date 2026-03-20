@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Servant Season Alerts</title>
+    <description>New season notifications for Servant. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/servant.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/servant.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Servant — Season 4</title>
+      <description>Premiere: 13 January 2023&lt;br&gt;Finale: 17 March 2023&lt;br&gt;Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/servant-s4.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/servant-s4.html</guid>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Servant — Season 3</title>
+      <description>Premiere: 21 January 2022&lt;br&gt;Finale: 25 March 2022&lt;br&gt;Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/servant-s3.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/servant-s3.html</guid>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Servant — Season 2</title>
+      <description>Premiere: 15 January 2021&lt;br&gt;Finale: 19 March 2021&lt;br&gt;Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/servant-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/servant-s2.html</guid>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Servant — Season 1</title>
+      <description>Premiere: 28 November 2019&lt;br&gt;Finale: 17 January 2020&lt;br&gt;Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/servant-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/servant-s1.html</guid>
+      <pubDate>Thu, 28 Nov 2019 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

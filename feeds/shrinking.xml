@@ -2,7 +2,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Shrinking Season Alerts</title>
-    <description>New season notifications for Shrinking from TVmaze metadata.</description>
+    <description>New season notifications for Shrinking. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/shrinking.xml</link>
     <language>en</language>
     <lastBuildDate>Wed, 28 Jan 2026 00:00:00 GMT</lastBuildDate>

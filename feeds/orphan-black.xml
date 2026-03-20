@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Orphan Black Season Alerts</title>
+    <description>New season notifications for Orphan Black. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/orphan-black.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Jun 2017 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/orphan-black.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orphan Black — Season 5</title>
+      <description>Premiere: 10 June 2017&lt;br&gt;Finale: 12 August 2017&lt;br&gt;Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/orphan-black-s5.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/orphan-black-s5.html</guid>
+      <pubDate>Sat, 10 Jun 2017 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Orphan Black — Season 4</title>
+      <description>Premiere: 14 April 2016&lt;br&gt;Finale: 16 June 2016&lt;br&gt;Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/orphan-black-s4.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/orphan-black-s4.html</guid>
+      <pubDate>Thu, 14 Apr 2016 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Orphan Black — Season 3</title>
+      <description>Premiere: 18 April 2015&lt;br&gt;Finale: 20 June 2015&lt;br&gt;Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/orphan-black-s3.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/orphan-black-s3.html</guid>
+      <pubDate>Sat, 18 Apr 2015 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Orphan Black — Season 2</title>
+      <description>Premiere: 19 April 2014&lt;br&gt;Finale: 21 June 2014&lt;br&gt;Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/orphan-black-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/orphan-black-s2.html</guid>
+      <pubDate>Sat, 19 Apr 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Orphan Black — Season 1</title>
+      <description>Premiere: 30 March 2013&lt;br&gt;Finale: 1 June 2013&lt;br&gt;Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/orphan-black-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/orphan-black-s1.html</guid>
+      <pubDate>Sat, 30 Mar 2013 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

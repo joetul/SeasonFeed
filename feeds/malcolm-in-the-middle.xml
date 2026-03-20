@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Malcolm in the Middle Season Alerts</title>
+    <description>New season notifications for Malcolm in the Middle. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/malcolm-in-the-middle.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Sep 2005 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/malcolm-in-the-middle.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Malcolm in the Middle — Season 7</title>
+      <description>Premiere: 30 September 2005&lt;br&gt;Finale: 14 May 2006&lt;br&gt;Episodes: 22</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s7.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s7.html</guid>
+      <pubDate>Fri, 30 Sep 2005 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Malcolm in the Middle — Season 6</title>
+      <description>Premiere: 7 November 2004&lt;br&gt;Finale: 15 May 2005&lt;br&gt;Episodes: 22</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s6.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s6.html</guid>
+      <pubDate>Sun, 07 Nov 2004 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Malcolm in the Middle — Season 5</title>
+      <description>Premiere: 2 November 2003&lt;br&gt;Finale: 23 May 2004&lt;br&gt;Episodes: 22</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s5.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s5.html</guid>
+      <pubDate>Sun, 02 Nov 2003 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Malcolm in the Middle — Season 4</title>
+      <description>Premiere: 3 November 2002&lt;br&gt;Finale: 18 May 2003&lt;br&gt;Episodes: 22</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s4.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s4.html</guid>
+      <pubDate>Sun, 03 Nov 2002 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Malcolm in the Middle — Season 3</title>
+      <description>Premiere: 11 November 2001&lt;br&gt;Finale: 12 May 2002&lt;br&gt;Episodes: 22</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s3.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s3.html</guid>
+      <pubDate>Sun, 11 Nov 2001 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Malcolm in the Middle — Season 2</title>
+      <description>Premiere: 5 November 2000&lt;br&gt;Finale: 20 May 2001&lt;br&gt;Episodes: 25</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s2.html</guid>
+      <pubDate>Sun, 05 Nov 2000 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Malcolm in the Middle — Season 1</title>
+      <description>Premiere: 9 January 2000&lt;br&gt;Finale: 21 May 2000&lt;br&gt;Episodes: 16</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/malcolm-in-the-middle-s1.html</guid>
+      <pubDate>Sun, 09 Jan 2000 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

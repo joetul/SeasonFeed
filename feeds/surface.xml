@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Surface Season Alerts</title>
+    <description>New season notifications for Surface. Data from TVmaze (tvmaze.com) under CC BY-SA.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/surface.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/surface.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Surface — Season 2</title>
+      <description>Premiere: 21 February 2025&lt;br&gt;Finale: 11 April 2025&lt;br&gt;Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/surface-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/surface-s2.html</guid>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Surface — Season 1</title>
+      <description>Premiere: 29 July 2022&lt;br&gt;Finale: 2 September 2022&lt;br&gt;Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/surface-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/surface-s1.html</guid>
+      <pubDate>Fri, 29 Jul 2022 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
