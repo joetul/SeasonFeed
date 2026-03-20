@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>One Piece Season Alerts</title>
+    <description>New season notifications for One Piece. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/one-piece-2023.xml</link>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/one-piece-2023.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One Piece — Season 2</title>
+      <description>Premiere: 10 March 2026
+Finale: 10 March 2026
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/one-piece-2023-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/one-piece-2023-s2.html</guid>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>One Piece — Season 1</title>
+      <description>Premiere: 31 August 2023
+Finale: 31 August 2023
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/one-piece-2023-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/one-piece-2023-s1.html</guid>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

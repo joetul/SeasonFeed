@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Eyes of Wakanda Season Alerts</title>
+    <description>New season notifications for Eyes of Wakanda. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/eyes-of-wakanda-2025.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/eyes-of-wakanda-2025.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eyes of Wakanda — Season 1</title>
+      <description>Premiere: 1 August 2025
+Finale: 1 August 2025
+Episodes: 4</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/eyes-of-wakanda-2025-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/eyes-of-wakanda-2025-s1.html</guid>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

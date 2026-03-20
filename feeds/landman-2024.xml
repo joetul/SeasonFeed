@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Landman Season Alerts</title>
+    <description>New season notifications for Landman. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/landman-2024.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Nov 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/landman-2024.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Landman — Season 2</title>
+      <description>Premiere: 16 November 2025
+Finale: 18 January 2026
+Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/landman-2024-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/landman-2024-s2.html</guid>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Landman — Season 1</title>
+      <description>Premiere: 17 November 2024
+Finale: 12 January 2025
+Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/landman-2024-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/landman-2024-s1.html</guid>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

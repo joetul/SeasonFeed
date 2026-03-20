@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Paradise Season Alerts</title>
+    <description>New season notifications for Paradise. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/paradise-2025.xml</link>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Feb 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/paradise-2025.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paradise — Season 2</title>
+      <description>Premiere: 23 February 2026
+Finale: 30 March 2026
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/paradise-2025-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/paradise-2025-s2.html</guid>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Paradise — Season 1</title>
+      <description>Premiere: 26 January 2025
+Finale: 4 March 2025
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/paradise-2025-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/paradise-2025-s1.html</guid>
+      <pubDate>Sun, 26 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

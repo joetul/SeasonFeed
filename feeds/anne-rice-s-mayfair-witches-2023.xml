@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Anne Rice's Mayfair Witches Season Alerts</title>
+    <description>New season notifications for Anne Rice's Mayfair Witches. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/anne-rice-s-mayfair-witches-2023.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Jan 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/anne-rice-s-mayfair-witches-2023.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anne Rice's Mayfair Witches — Season 2</title>
+      <description>Premiere: 5 January 2025
+Finale: 2 March 2025
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/anne-rice-s-mayfair-witches-2023-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/anne-rice-s-mayfair-witches-2023-s2.html</guid>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anne Rice's Mayfair Witches — Season 1</title>
+      <description>Premiere: 5 January 2023
+Finale: 23 February 2023
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/anne-rice-s-mayfair-witches-2023-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/anne-rice-s-mayfair-witches-2023-s1.html</guid>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

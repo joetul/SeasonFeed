@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>IT: Welcome to Derry Season Alerts</title>
+    <description>New season notifications for IT: Welcome to Derry. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/it-welcome-to-derry-2025.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Oct 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/it-welcome-to-derry-2025.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IT: Welcome to Derry — Season 1</title>
+      <description>Premiere: 26 October 2025
+Finale: 14 December 2025
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/it-welcome-to-derry-2025-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/it-welcome-to-derry-2025-s1.html</guid>
+      <pubDate>Sun, 26 Oct 2025 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

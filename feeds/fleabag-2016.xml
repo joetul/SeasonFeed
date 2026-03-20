@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Fleabag Season Alerts</title>
+    <description>New season notifications for Fleabag. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/fleabag-2016.xml</link>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/fleabag-2016.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fleabag — Season 2</title>
+      <description>Premiere: 4 March 2019
+Finale: 8 April 2019
+Episodes: 6</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/fleabag-2016-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/fleabag-2016-s2.html</guid>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fleabag — Season 1</title>
+      <description>Premiere: 21 July 2016
+Finale: 25 August 2016
+Episodes: 6</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/fleabag-2016-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/fleabag-2016-s1.html</guid>
+      <pubDate>Thu, 21 Jul 2016 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Dexter: Resurrection Season Alerts</title>
+    <description>New season notifications for Dexter: Resurrection. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/dexter-resurrection-2025.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/dexter-resurrection-2025.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dexter: Resurrection — Season 1</title>
+      <description>Premiere: 11 July 2025
+Finale: 5 September 2025
+Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/dexter-resurrection-2025-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/dexter-resurrection-2025-s1.html</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

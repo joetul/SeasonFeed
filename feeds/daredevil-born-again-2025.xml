@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Daredevil: Born Again Season Alerts</title>
+    <description>New season notifications for Daredevil: Born Again. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/daredevil-born-again-2025.xml</link>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/daredevil-born-again-2025.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daredevil: Born Again — Season 2</title>
+      <description>Premiere: 24 March 2026
+Finale: 12 May 2026
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/daredevil-born-again-2025-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/daredevil-born-again-2025-s2.html</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Daredevil: Born Again — Season 1</title>
+      <description>Premiere: 4 March 2025
+Finale: 15 April 2025
+Episodes: 9</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/daredevil-born-again-2025-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/daredevil-born-again-2025-s1.html</guid>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

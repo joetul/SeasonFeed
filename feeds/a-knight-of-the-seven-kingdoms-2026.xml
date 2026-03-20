@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>A Knight of the Seven Kingdoms Season Alerts</title>
+    <description>New season notifications for A Knight of the Seven Kingdoms. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/a-knight-of-the-seven-kingdoms-2026.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/a-knight-of-the-seven-kingdoms-2026.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Knight of the Seven Kingdoms — Season 1</title>
+      <description>Premiere: 18 January 2026
+Finale: 22 February 2026
+Episodes: 6</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/a-knight-of-the-seven-kingdoms-2026-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/a-knight-of-the-seven-kingdoms-2026-s1.html</guid>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>The Mentalist Season Alerts</title>
+    <description>New season notifications for The Mentalist. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/the-mentalist-2008.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 30 Nov 2014 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/the-mentalist-2008.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Mentalist — Season 7</title>
+      <description>Premiere: 30 November 2014
+Finale: 18 February 2015
+Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s7.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s7.html</guid>
+      <pubDate>Sun, 30 Nov 2014 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Mentalist — Season 6</title>
+      <description>Premiere: 29 September 2013
+Finale: 18 May 2014
+Episodes: 22</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s6.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s6.html</guid>
+      <pubDate>Sun, 29 Sep 2013 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Mentalist — Season 5</title>
+      <description>Premiere: 30 September 2012
+Finale: 5 May 2013
+Episodes: 22</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s5.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s5.html</guid>
+      <pubDate>Sun, 30 Sep 2012 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Mentalist — Season 4</title>
+      <description>Premiere: 22 September 2011
+Finale: 17 May 2012
+Episodes: 24</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s4.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s4.html</guid>
+      <pubDate>Thu, 22 Sep 2011 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Mentalist — Season 3</title>
+      <description>Premiere: 23 September 2010
+Finale: 19 May 2011
+Episodes: 24</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s3.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s3.html</guid>
+      <pubDate>Thu, 23 Sep 2010 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Mentalist — Season 2</title>
+      <description>Premiere: 24 September 2009
+Finale: 20 May 2010
+Episodes: 23</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s2.html</guid>
+      <pubDate>Thu, 24 Sep 2009 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Mentalist — Season 1</title>
+      <description>Premiere: 23 September 2008
+Finale: 19 May 2009
+Episodes: 23</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-mentalist-2008-s1.html</guid>
+      <pubDate>Tue, 23 Sep 2008 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

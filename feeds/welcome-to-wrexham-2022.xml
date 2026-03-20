@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Welcome to Wrexham Season Alerts</title>
+    <description>New season notifications for Welcome to Wrexham. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/welcome-to-wrexham-2022.xml</link>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/welcome-to-wrexham-2022.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to Wrexham — Season 4</title>
+      <description>Premiere: 15 May 2025
+Finale: 26 June 2025
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/welcome-to-wrexham-2022-s4.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/welcome-to-wrexham-2022-s4.html</guid>
+      <pubDate>Thu, 15 May 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Wrexham — Season 3</title>
+      <description>Premiere: 2 May 2024
+Finale: 13 June 2024
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/welcome-to-wrexham-2022-s3.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/welcome-to-wrexham-2022-s3.html</guid>
+      <pubDate>Thu, 02 May 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Wrexham — Season 2</title>
+      <description>Premiere: 12 September 2023
+Finale: 14 November 2023
+Episodes: 15</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/welcome-to-wrexham-2022-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/welcome-to-wrexham-2022-s2.html</guid>
+      <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Wrexham — Season 1</title>
+      <description>Premiere: 24 August 2022
+Finale: 12 October 2022
+Episodes: 18</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/welcome-to-wrexham-2022-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/welcome-to-wrexham-2022-s1.html</guid>
+      <pubDate>Wed, 24 Aug 2022 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

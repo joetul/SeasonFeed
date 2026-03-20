@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Mare of Easttown Season Alerts</title>
+    <description>New season notifications for Mare of Easttown. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/mare-of-easttown-2021.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Apr 2021 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/mare-of-easttown-2021.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mare of Easttown — Season 1</title>
+      <description>Premiere: 18 April 2021
+Finale: 30 May 2021
+Episodes: 7</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/mare-of-easttown-2021-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/mare-of-easttown-2021-s1.html</guid>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

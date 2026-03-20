@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>She-Hulk: Attorney at Law Season Alerts</title>
+    <description>New season notifications for She-Hulk: Attorney at Law. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/she-hulk-attorney-at-law-2022.xml</link>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Aug 2022 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/she-hulk-attorney-at-law-2022.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>She-Hulk: Attorney at Law — Season 1</title>
+      <description>Premiere: 18 August 2022
+Finale: 13 October 2022
+Episodes: 9</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/she-hulk-attorney-at-law-2022-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/she-hulk-attorney-at-law-2022-s1.html</guid>
+      <pubDate>Thu, 18 Aug 2022 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

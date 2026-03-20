@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Chuck Season Alerts</title>
+    <description>New season notifications for Chuck. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/chuck-2007.xml</link>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Oct 2011 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/chuck-2007.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chuck — Season 5</title>
+      <description>Premiere: 28 October 2011
+Finale: 27 January 2012
+Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/chuck-2007-s5.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/chuck-2007-s5.html</guid>
+      <pubDate>Fri, 28 Oct 2011 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chuck — Season 4</title>
+      <description>Premiere: 20 September 2010
+Finale: 16 May 2011
+Episodes: 24</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/chuck-2007-s4.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/chuck-2007-s4.html</guid>
+      <pubDate>Mon, 20 Sep 2010 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chuck — Season 3</title>
+      <description>Premiere: 10 January 2010
+Finale: 24 May 2010
+Episodes: 19</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/chuck-2007-s3.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/chuck-2007-s3.html</guid>
+      <pubDate>Sun, 10 Jan 2010 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chuck — Season 2</title>
+      <description>Premiere: 29 September 2008
+Finale: 27 April 2009
+Episodes: 22</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/chuck-2007-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/chuck-2007-s2.html</guid>
+      <pubDate>Mon, 29 Sep 2008 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Chuck — Season 1</title>
+      <description>Premiere: 24 September 2007
+Finale: 24 January 2008
+Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/chuck-2007-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/chuck-2007-s1.html</guid>
+      <pubDate>Mon, 24 Sep 2007 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

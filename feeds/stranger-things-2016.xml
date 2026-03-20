@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Stranger Things Season Alerts</title>
+    <description>New season notifications for Stranger Things. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/stranger-things-2016.xml</link>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/stranger-things-2016.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stranger Things — Season 5</title>
+      <description>Premiere: 26 November 2025
+Finale: 31 December 2025
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/stranger-things-2016-s5.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/stranger-things-2016-s5.html</guid>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stranger Things — Season 4</title>
+      <description>Premiere: 27 May 2022
+Finale: 1 July 2022
+Episodes: 9</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/stranger-things-2016-s4.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/stranger-things-2016-s4.html</guid>
+      <pubDate>Fri, 27 May 2022 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stranger Things — Season 3</title>
+      <description>Premiere: 4 July 2019
+Finale: 4 July 2019
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/stranger-things-2016-s3.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/stranger-things-2016-s3.html</guid>
+      <pubDate>Thu, 04 Jul 2019 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stranger Things — Season 2</title>
+      <description>Premiere: 27 October 2017
+Finale: 27 October 2017
+Episodes: 9</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/stranger-things-2016-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/stranger-things-2016-s2.html</guid>
+      <pubDate>Fri, 27 Oct 2017 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stranger Things — Season 1</title>
+      <description>Premiere: 15 July 2016
+Finale: 15 July 2016
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/stranger-things-2016-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/stranger-things-2016-s1.html</guid>
+      <pubDate>Fri, 15 Jul 2016 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

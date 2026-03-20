@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Suits LA Season Alerts</title>
+    <description>New season notifications for Suits LA. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/suits-la-2025.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/suits-la-2025.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Suits LA — Season 1</title>
+      <description>Premiere: 23 February 2025
+Finale: 18 May 2025
+Episodes: 13</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/suits-la-2025-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/suits-la-2025-s1.html</guid>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

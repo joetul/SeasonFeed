@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Arcane: League of Legends Season Alerts</title>
+    <description>New season notifications for Arcane: League of Legends. Adapted from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/arcane-league-of-legends-2021.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/arcane-league-of-legends-2021.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arcane: League of Legends — Season 2</title>
+      <description>Premiere: 9 November 2024
+Finale: 23 November 2024
+Episodes: 9</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/arcane-league-of-legends-2021-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/arcane-league-of-legends-2021-s2.html</guid>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Arcane: League of Legends — Season 1</title>
+      <description>Premiere: 6 November 2021
+Finale: 20 November 2021
+Episodes: 9</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/arcane-league-of-legends-2021-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/arcane-league-of-legends-2021-s1.html</guid>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
