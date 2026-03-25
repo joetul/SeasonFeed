@@ -5,8 +5,16 @@
     <description>New season notifications for Criminal Minds. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/criminal-minds-2005.xml</link>
     <language>en</language>
-    <lastBuildDate>Thu, 08 May 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/criminal-minds-2005.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Criminal Minds — Season 19</title>
+      <description>Premiere: 28 May 2026
+Finale: 28 May 2026</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/criminal-minds-2005-s19.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/criminal-minds-2005-s19.html</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Criminal Minds — Season 18</title>
       <description>Premiere: 8 May 2025
