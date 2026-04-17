@@ -304,7 +304,7 @@
     "network": "Netflix",
     "status": "Running",
     "latest_season": 2,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/620/1551311.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/621/1554643.jpg",
     "premiered": "2023-04-06"
   },
   {
@@ -974,8 +974,8 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/54723/from",
     "network": "MGM+",
     "status": "Running",
-    "latest_season": 4,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/618/1547007.jpg",
+    "latest_season": 5,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/621/1554646.jpg",
     "premiered": "2022-02-20"
   },
   {
@@ -1392,7 +1392,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/103/law-order-special-victims-unit",
     "network": "NBC",
     "status": "Running",
-    "latest_season": 27,
+    "latest_season": 28,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/589/1472924.jpg",
     "premiered": "1999-09-20"
   },
