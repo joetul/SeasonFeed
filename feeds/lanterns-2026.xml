@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Lanterns Season Alerts</title>
+    <description>New season notifications for Lanterns. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
+    <link>https://joetul.github.io/SeasonFeed/feeds/lanterns-2026.xml</link>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://joetul.github.io/SeasonFeed/feeds/lanterns-2026.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lanterns — Season 1</title>
+      <description>Premiere: 16 August 2026
+Finale: 16 August 2026
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/lanterns-2026-s1.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/lanterns-2026-s1.html</guid>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

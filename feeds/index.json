@@ -1376,14 +1376,14 @@
   },
   {
     "name": "Lanterns",
-    "slug": "lanterns",
-    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/lanterns.xml",
+    "slug": "lanterns-2026",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/lanterns-2026.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/44776/lanterns",
     "network": "HBO",
     "status": "In Development",
     "latest_season": 1,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/623/1557890.jpg",
-    "premiered": null
+    "premiered": "2026-08-16"
   },
   {
     "name": "Law & Order: Special Victims Unit",
