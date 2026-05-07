@@ -533,9 +533,9 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/citadel-2023.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/45834/citadel",
     "network": "Prime Video",
-    "status": "Running",
+    "status": "To Be Determined",
     "latest_season": 2,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/622/1556706.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/624/1560435.jpg",
     "premiered": "2023-04-28"
   },
   {
@@ -1239,7 +1239,7 @@
     "network": "HBO",
     "status": "Running",
     "latest_season": 4,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/623/1559995.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/624/1560444.jpg",
     "premiered": "2022-08-21"
   },
   {
@@ -2679,7 +2679,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/54198/the-bear",
     "network": "Hulu",
     "status": "Running",
-    "latest_season": 4,
+    "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/592/1480192.jpg",
     "premiered": "2022-06-23"
   },
