@@ -5,8 +5,16 @@
     <description>New season notifications for Marvel's The Punisher. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/marvel-s-the-punisher-2017.xml</link>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Jan 2019 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/marvel-s-the-punisher-2017.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marvel's The Punisher — Season 3</title>
+      <description>Premiere: 12 May 2026
+Finale: 12 May 2026</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/marvel-s-the-punisher-2017-s3.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/marvel-s-the-punisher-2017-s3.html</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Marvel's The Punisher — Season 2</title>
       <description>Premiere: 18 January 2019
