@@ -831,7 +831,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/66869/elsbeth",
     "network": "CBS",
     "status": "Running",
-    "latest_season": 4,
+    "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479795.jpg",
     "premiered": "2024-02-29"
   },
@@ -908,7 +908,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/32158/fbi",
     "network": "CBS",
     "status": "Running",
-    "latest_season": 9,
+    "latest_season": 8,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479841.jpg",
     "premiered": "2018-09-25"
   },
@@ -1161,7 +1161,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/68752/high-potential",
     "network": "ABC",
     "status": "Running",
-    "latest_season": 3,
+    "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/585/1463470.jpg",
     "premiered": "2024-09-17"
   },
@@ -1392,7 +1392,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/103/law-order-special-victims-unit",
     "network": "NBC",
     "status": "Running",
-    "latest_season": 28,
+    "latest_season": 27,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/589/1472924.jpg",
     "premiered": "1999-09-20"
   },
@@ -3262,7 +3262,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/63192/tracker",
     "network": "CBS",
     "status": "Running",
-    "latest_season": 4,
+    "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479867.jpg",
     "premiered": "2024-02-11"
   },
