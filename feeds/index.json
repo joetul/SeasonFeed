@@ -3086,7 +3086,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/32938/the-rookie",
     "network": "ABC",
     "status": "Running",
-    "latest_season": 9,
+    "latest_season": 8,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/606/1515728.jpg",
     "premiered": "2018-10-16"
   },
@@ -3482,7 +3482,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/61740/will-trent",
     "network": "ABC",
     "status": "Running",
-    "latest_season": 5,
+    "latest_season": 4,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/602/1506386.jpg",
     "premiered": "2023-01-03"
   },
