@@ -5,8 +5,17 @@
     <description>New season notifications for Slow Horses. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/slow-horses-2022.xml</link>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Sep 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/slow-horses-2022.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Slow Horses — Season 6</title>
+      <description>Premiere: 16 September 2026
+Finale: 21 October 2026
+Episodes: 6</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/slow-horses-2022-s6.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/slow-horses-2022-s6.html</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Slow Horses — Season 5</title>
       <description>Premiere: 24 September 2025
