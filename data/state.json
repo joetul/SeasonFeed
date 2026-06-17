@@ -377,6 +377,12 @@
     "latest_season": 2,
     "last_checked": "2026-03-20T14:42:39Z"
   },
+  "defending-jacob": {
+    "tvmaze_id": 38801,
+    "name": "Defending Jacob",
+    "latest_season": 1,
+    "last_checked": "2026-06-17T04:38:48Z"
+  },
   "dexter": {
     "tvmaze_id": 161,
     "name": "Dexter",
@@ -635,6 +641,12 @@
     "latest_season": 2,
     "last_checked": "2026-03-16T00:43:55Z"
   },
+  "home-before-dark": {
+    "tvmaze_id": 41529,
+    "name": "Home Before Dark",
+    "latest_season": 2,
+    "last_checked": "2026-06-17T04:38:50Z"
+  },
   "homeland": {
     "tvmaze_id": 7,
     "name": "Homeland",
@@ -725,6 +737,12 @@
     "latest_season": 17,
     "last_checked": "2026-03-20T14:43:03Z"
   },
+  "lady-in-the-lake": {
+    "tvmaze_id": 54016,
+    "name": "Lady in the Lake",
+    "latest_season": 1,
+    "last_checked": "2026-06-17T04:38:52Z"
+  },
   "landman": {
     "tvmaze_id": 53777,
     "name": "Landman",
@@ -755,11 +773,23 @@
     "latest_season": 1,
     "last_checked": "2026-03-16T18:43:43Z"
   },
+  "liaison": {
+    "tvmaze_id": 56088,
+    "name": "Liaison",
+    "latest_season": 1,
+    "last_checked": "2026-06-17T04:38:54Z"
+  },
   "lioness": {
     "tvmaze_id": 50415,
     "name": "Lioness",
     "latest_season": 3,
     "last_checked": "2026-03-16T00:44:34Z"
+  },
+  "little-america": {
+    "tvmaze_id": 37928,
+    "name": "Little America",
+    "latest_season": 2,
+    "last_checked": "2026-06-17T04:38:55Z"
   },
   "loki": {
     "tvmaze_id": 41007,
@@ -808,6 +838,12 @@
     "name": "Mare of Easttown",
     "latest_season": 1,
     "last_checked": "2026-03-16T00:44:06Z"
+  },
+  "margo-s-got-money-troubles": {
+    "tvmaze_id": 74442,
+    "name": "Margo's Got Money Troubles",
+    "latest_season": 1,
+    "last_checked": "2026-06-17T04:38:57Z"
   },
   "marshals": {
     "tvmaze_id": 84526,

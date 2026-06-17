@@ -693,6 +693,17 @@
     "premiered": "2006-10-03"
   },
   {
+    "name": "Defending Jacob",
+    "slug": "defending-jacob-2020",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/defending-jacob-2020.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/38801/defending-jacob",
+    "network": "Apple TV",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/248/620716.jpg",
+    "premiered": "2020-04-24"
+  },
+  {
     "name": "Dexter",
     "slug": "dexter-2006",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/dexter-2006.xml",
@@ -1140,7 +1151,7 @@
     "network": "Netflix",
     "status": "Running",
     "latest_season": 3,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/576/1441173.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/629/1572611.jpg",
     "premiered": "2022-04-22"
   },
   {
@@ -1164,6 +1175,17 @@
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/608/1521070.jpg",
     "premiered": "2023-06-28"
+  },
+  {
+    "name": "Home Before Dark",
+    "slug": "home-before-dark-2020",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/home-before-dark-2020.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/41529/home-before-dark",
+    "network": "Apple TV",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/330/827107.jpg",
+    "premiered": "2020-04-03"
   },
   {
     "name": "Homeland",
@@ -1331,6 +1353,17 @@
     "premiered": "1997-01-12"
   },
   {
+    "name": "Lady in the Lake",
+    "slug": "lady-in-the-lake-2024",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/lady-in-the-lake-2024.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/54016/lady-in-the-lake",
+    "network": "Apple TV",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/524/1310314.jpg",
+    "premiered": "2024-07-19"
+  },
+  {
     "name": "Landman",
     "slug": "landman-2024",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/landman-2024.xml",
@@ -1386,6 +1419,17 @@
     "premiered": "2023-10-13"
   },
   {
+    "name": "Liaison",
+    "slug": "liaison-2023",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/liaison-2023.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/56088/liaison",
+    "network": "Apple TV",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/445/1114764.jpg",
+    "premiered": "2023-02-24"
+  },
+  {
     "name": "Lioness",
     "slug": "lioness-2023",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/lioness-2023.xml",
@@ -1395,6 +1439,17 @@
     "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/542/1355074.jpg",
     "premiered": "2023-07-23"
+  },
+  {
+    "name": "Little America",
+    "slug": "little-america-2020",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/little-america-2020.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/37928/little-america",
+    "network": "Apple TV",
+    "status": "Ended",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/431/1077666.jpg",
+    "premiered": "2020-01-17"
   },
   {
     "name": "Loki",
@@ -1483,6 +1538,17 @@
     "latest_season": 1,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/301/753981.jpg",
     "premiered": "2021-04-18"
+  },
+  {
+    "name": "Margo's Got Money Troubles",
+    "slug": "margo-s-got-money-troubles-2026",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/margo-s-got-money-troubles-2026.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/74442/margos-got-money-troubles",
+    "network": "Apple TV",
+    "status": "Running",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/621/1554071.jpg",
+    "premiered": "2026-04-15"
   },
   {
     "name": "Marshals",
