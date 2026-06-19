@@ -5,8 +5,17 @@
     <description>New season notifications for Outer Banks. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/outer-banks-2020.xml</link>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Oct 2024 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/outer-banks-2020.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Outer Banks — Season 5</title>
+      <description>Premiere: 20 August 2026
+Finale: 20 August 2026
+Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/outer-banks-2020-s5.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/outer-banks-2020-s5.html</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Outer Banks — Season 4</title>
       <description>Premiere: 10 October 2024
