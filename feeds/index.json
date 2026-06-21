@@ -831,7 +831,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/66869/elsbeth",
     "network": "CBS",
     "status": "Running",
-    "latest_season": 4,
+    "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479795.jpg",
     "premiered": "2024-02-29"
   },
@@ -1161,7 +1161,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/68752/high-potential",
     "network": "ABC",
     "status": "Running",
-    "latest_season": 3,
+    "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/585/1463470.jpg",
     "premiered": "2024-09-17"
   },
