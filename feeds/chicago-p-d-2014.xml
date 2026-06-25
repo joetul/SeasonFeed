@@ -5,8 +5,16 @@
     <description>New season notifications for Chicago P.D.. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/chicago-p-d-2014.xml</link>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/chicago-p-d-2014.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chicago P.D. — Season 14</title>
+      <description>Premiere: 7 October 2026
+Finale: 7 October 2026</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/chicago-p-d-2014-s14.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/chicago-p-d-2014-s14.html</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Chicago P.D. — Season 13</title>
       <description>Premiere: 1 October 2025

@@ -5,8 +5,16 @@
     <description>New season notifications for Chicago Fire. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/chicago-fire-2012.xml</link>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/chicago-fire-2012.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chicago Fire — Season 15</title>
+      <description>Premiere: 7 October 2026
+Finale: 7 October 2026</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/chicago-fire-2012-s15.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/chicago-fire-2012-s15.html</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Chicago Fire — Season 14</title>
       <description>Premiere: 1 October 2025

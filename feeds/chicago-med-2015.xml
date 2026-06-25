@@ -5,8 +5,16 @@
     <description>New season notifications for Chicago Med. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/chicago-med-2015.xml</link>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/chicago-med-2015.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chicago Med — Season 12</title>
+      <description>Premiere: 7 October 2026
+Finale: 7 October 2026</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/chicago-med-2015-s12.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/chicago-med-2015-s12.html</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Chicago Med — Season 11</title>
       <description>Premiere: 1 October 2025
