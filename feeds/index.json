@@ -2678,7 +2678,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/the-bear-2022.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/54198/the-bear",
     "network": "Hulu",
-    "status": "Running",
+    "status": "Ended",
     "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/629/1574642.jpg",
     "premiered": "2022-06-23"
@@ -3427,7 +3427,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/55536/welcome-to-wrexham",
     "network": "FX",
     "status": "Running",
-    "latest_season": 5,
+    "latest_season": 6,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/568/1420128.jpg",
     "premiered": "2022-08-24"
   },
