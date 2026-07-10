@@ -5,8 +5,16 @@
     <description>New season notifications for Elsbeth. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/elsbeth-2024.xml</link>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Oct 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/elsbeth-2024.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elsbeth — Season 4</title>
+      <description>Premiere: 8 October 2026
+Finale: 8 October 2026</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/elsbeth-2024-s4.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/elsbeth-2024-s4.html</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Elsbeth — Season 3</title>
       <description>Premiere: 12 October 2025

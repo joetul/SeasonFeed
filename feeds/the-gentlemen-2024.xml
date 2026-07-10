@@ -5,8 +5,17 @@
     <description>New season notifications for The Gentlemen. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/the-gentlemen-2024.xml</link>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Mar 2024 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/the-gentlemen-2024.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Gentlemen — Season 2</title>
+      <description>Premiere: 3 September 2026
+Finale: 3 September 2026
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/the-gentlemen-2024-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/the-gentlemen-2024-s2.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>The Gentlemen — Season 1</title>
       <description>Premiere: 7 March 2024
