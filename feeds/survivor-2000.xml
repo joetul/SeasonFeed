@@ -5,8 +5,16 @@
     <description>New season notifications for Survivor. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/survivor-2000.xml</link>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/survivor-2000.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Survivor — Season 51</title>
+      <description>Premiere: 23 September 2026
+Finale: 23 September 2026</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/survivor-2000-s51.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/survivor-2000-s51.html</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Survivor — Season 50</title>
       <description>Premiere: 25 February 2026
