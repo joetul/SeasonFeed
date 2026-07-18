@@ -1149,7 +1149,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/heartstopper-2022.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/53269/heartstopper",
     "network": "Netflix",
-    "status": "Running",
+    "status": "Ended",
     "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/632/1580747.jpg",
     "premiered": "2022-04-22"
@@ -2425,7 +2425,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/star-wars-skeleton-crew-2024.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/62271/star-wars-skeleton-crew",
     "network": "Disney+",
-    "status": "Ended",
+    "status": "To Be Determined",
     "latest_season": 1,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/546/1365559.jpg",
     "premiered": "2024-12-02"
