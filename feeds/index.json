@@ -1161,7 +1161,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/68752/high-potential",
     "network": "ABC",
     "status": "Running",
-    "latest_season": 2,
+    "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/585/1463470.jpg",
     "premiered": "2024-09-17"
   },
@@ -2580,7 +2580,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/114/survivor",
     "network": "CBS",
     "status": "Running",
-    "latest_season": 51,
+    "latest_season": 52,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/615/1538081.jpg",
     "premiered": "2000-05-31"
   },
@@ -3086,7 +3086,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/32938/the-rookie",
     "network": "ABC",
     "status": "Running",
-    "latest_season": 8,
+    "latest_season": 9,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/606/1515728.jpg",
     "premiered": "2018-10-16"
   },
@@ -3482,7 +3482,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/61740/will-trent",
     "network": "ABC",
     "status": "Running",
-    "latest_season": 4,
+    "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/602/1506386.jpg",
     "premiered": "2023-01-03"
   },
