@@ -1349,7 +1349,7 @@
     "network": "Hulu",
     "status": "Running",
     "latest_season": 17,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/592/1480199.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1583268.jpg",
     "premiered": "1997-01-12"
   },
   {
@@ -1382,7 +1382,7 @@
     "network": "HBO",
     "status": "In Development",
     "latest_season": 1,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/631/1577976.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1583225.jpg",
     "premiered": "2026-08-16"
   },
   {
@@ -2151,7 +2151,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/216/rick-and-morty",
     "network": "Adult Swim",
     "status": "Running",
-    "latest_season": 9,
+    "latest_season": 10,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/626/1566363.jpg",
     "premiered": "2013-12-02"
   },
