@@ -413,7 +413,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/107/bobs-burgers",
     "network": "FOX",
     "status": "Running",
-    "latest_season": 17,
+    "latest_season": 16,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/589/1474468.jpg",
     "premiered": "2011-01-09"
   },
@@ -886,7 +886,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/84/family-guy",
     "network": "FOX",
     "status": "Running",
-    "latest_season": 25,
+    "latest_season": 24,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/609/1523259.jpg",
     "premiered": "1999-01-31"
   },
@@ -1161,7 +1161,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/68752/high-potential",
     "network": "ABC",
     "status": "Running",
-    "latest_season": 3,
+    "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/585/1463470.jpg",
     "premiered": "2024-09-17"
   },
@@ -2580,7 +2580,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/114/survivor",
     "network": "CBS",
     "status": "Running",
-    "latest_season": 52,
+    "latest_season": 51,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/615/1538081.jpg",
     "premiered": "2000-05-31"
   },
@@ -2976,7 +2976,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/41524/the-morning-show",
     "network": "Apple TV",
     "status": "Running",
-    "latest_season": 4,
+    "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/594/1485135.jpg",
     "premiered": "2019-11-01"
   },
