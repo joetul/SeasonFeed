@@ -413,7 +413,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/107/bobs-burgers",
     "network": "FOX",
     "status": "Running",
-    "latest_season": 16,
+    "latest_season": 17,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/589/1474468.jpg",
     "premiered": "2011-01-09"
   },
@@ -886,7 +886,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/84/family-guy",
     "network": "FOX",
     "status": "Running",
-    "latest_season": 24,
+    "latest_season": 25,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/609/1523259.jpg",
     "premiered": "1999-01-31"
   },
@@ -1998,7 +1998,7 @@
     "network": "Disney+",
     "status": "Running",
     "latest_season": 3,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/602/1505524.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584337.jpg",
     "premiered": "2023-12-19"
   },
   {
@@ -2933,7 +2933,7 @@
     "network": "Prime Video",
     "status": "Running",
     "latest_season": 3,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/538/1346107.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584401.jpg",
     "premiered": "2022-09-02"
   },
   {
