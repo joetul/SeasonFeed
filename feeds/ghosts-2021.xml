@@ -5,8 +5,17 @@
     <description>New season notifications for Ghosts. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/ghosts-2021.xml</link>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Oct 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/ghosts-2021.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ghosts — Season 6</title>
+      <description>Premiere: 29 October 2026
+Finale: 10 December 2026
+Episodes: 22</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/ghosts-2021-s6.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/ghosts-2021-s6.html</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Ghosts — Season 5</title>
       <description>Premiere: 16 October 2025
