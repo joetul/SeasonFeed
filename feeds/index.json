@@ -280,7 +280,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/batman-caped-crusader-2024.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/55415/batman-caped-crusader",
     "network": "Prime Video",
-    "status": "Running",
+    "status": "To Be Determined",
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/529/1323819.jpg",
     "premiered": "2024-08-01"
@@ -413,7 +413,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/107/bobs-burgers",
     "network": "FOX",
     "status": "Running",
-    "latest_season": 17,
+    "latest_season": 16,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/589/1474468.jpg",
     "premiered": "2011-01-09"
   },
@@ -1161,7 +1161,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/68752/high-potential",
     "network": "ABC",
     "status": "Running",
-    "latest_season": 3,
+    "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/585/1463470.jpg",
     "premiered": "2024-09-17"
   },
