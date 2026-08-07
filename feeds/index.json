@@ -1161,7 +1161,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/68752/high-potential",
     "network": "ABC",
     "status": "Running",
-    "latest_season": 2,
+    "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/585/1463470.jpg",
     "premiered": "2024-09-17"
   },
@@ -1877,7 +1877,7 @@
     "network": "Netflix",
     "status": "Running",
     "latest_season": 5,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/629/1573432.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/635/1589150.jpg",
     "premiered": "2020-04-15"
   },
   {
@@ -2405,7 +2405,7 @@
     "network": "Paramount+",
     "status": "Running",
     "latest_season": 5,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/629/1574458.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/635/1589217.jpg",
     "premiered": "2022-05-05"
   },
   {
