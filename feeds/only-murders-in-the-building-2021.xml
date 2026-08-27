@@ -5,8 +5,17 @@
     <description>New season notifications for Only Murders in the Building. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/only-murders-in-the-building-2021.xml</link>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Sep 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Dec 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/only-murders-in-the-building-2021.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Only Murders in the Building — Season 6</title>
+      <description>Premiere: 8 December 2026
+Finale: 9 February 2027
+Episodes: 10</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/only-murders-in-the-building-2021-s6.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/only-murders-in-the-building-2021-s6.html</guid>
+      <pubDate>Tue, 08 Dec 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Only Murders in the Building — Season 5</title>
       <description>Premiere: 9 September 2025
