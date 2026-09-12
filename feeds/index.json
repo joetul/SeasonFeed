@@ -622,7 +622,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/48945/cyberpunk-edgerunners",
     "network": "Netflix",
     "status": "Ended",
-    "latest_season": 1,
+    "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/498/1246519.jpg",
     "premiered": "2022-09-13"
   },
@@ -1558,7 +1558,7 @@
     "network": "CBS",
     "status": "Running",
     "latest_season": 2,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/616/1540004.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/640/1602427.jpg",
     "premiered": "2026-03-01"
   },
   {
@@ -1778,7 +1778,7 @@
     "network": "CBS",
     "status": "Running",
     "latest_season": 24,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479851.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/639/1599594.jpg",
     "premiered": "2003-09-23"
   },
   {
@@ -1789,7 +1789,7 @@
     "network": "CBS",
     "status": "Running",
     "latest_season": 3,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479858.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/640/1602261.jpg",
     "premiered": "2024-10-14"
   },
   {
@@ -3263,7 +3263,7 @@
     "network": "CBS",
     "status": "Running",
     "latest_season": 4,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479867.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/640/1602429.jpg",
     "premiered": "2024-02-11"
   },
   {

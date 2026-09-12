@@ -5,8 +5,16 @@
     <description>New season notifications for Cyberpunk: Edgerunners. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/cyberpunk-edgerunners-2022.xml</link>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Sep 2022 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/cyberpunk-edgerunners-2022.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cyberpunk: Edgerunners — Season 2</title>
+      <description>Premiere: 20 October 2026
+Finale: 20 October 2026</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/cyberpunk-edgerunners-2022-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/cyberpunk-edgerunners-2022-s2.html</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Cyberpunk: Edgerunners — Season 1</title>
       <description>Premiere: 13 September 2022
