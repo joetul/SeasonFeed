@@ -832,7 +832,7 @@
     "network": "CBS",
     "status": "Running",
     "latest_season": 4,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479795.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/640/1602439.jpg",
     "premiered": "2024-02-29"
   },
   {
@@ -1315,7 +1315,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/61324/it-welcome-to-derry",
     "network": "HBO",
     "status": "Running",
-    "latest_season": 1,
+    "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/594/1485959.jpg",
     "premiered": "2025-10-26"
   },
@@ -2822,7 +2822,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/64992/the-gentlemen",
     "network": "Netflix",
     "status": "Running",
-    "latest_season": 2,
+    "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/638/1597311.jpg",
     "premiered": "2024-03-07"
   },
