@@ -1315,7 +1315,7 @@
     "tvmaze_url": "https://www.tvmaze.com/shows/61324/it-welcome-to-derry",
     "network": "HBO",
     "status": "Running",
-    "latest_season": 2,
+    "latest_season": 1,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/594/1485959.jpg",
     "premiered": "2025-10-26"
   },
@@ -1822,7 +1822,7 @@
     "network": "Netflix",
     "status": "Running",
     "latest_season": 3,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/594/1485603.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/641/1602946.jpg",
     "premiered": "2024-09-26"
   },
   {
@@ -2823,7 +2823,7 @@
     "network": "Netflix",
     "status": "Running",
     "latest_season": 3,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/638/1597311.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/641/1603070.jpg",
     "premiered": "2024-03-07"
   },
   {
@@ -3184,7 +3184,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/the-walking-dead-dead-city-2023.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/60879/the-walking-dead-dead-city",
     "network": "AMC+",
-    "status": "Running",
+    "status": "To Be Determined",
     "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/630/1575480.jpg",
     "premiered": "2023-06-15"
