@@ -40,7 +40,7 @@
     "network": "ABC",
     "status": "Running",
     "latest_season": 10,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/600/1501058.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/642/1605095.jpg",
     "premiered": "2018-01-03"
   },
   {
@@ -73,7 +73,7 @@
     "network": "ABC",
     "status": "Running",
     "latest_season": 6,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/586/1467109.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/642/1605014.jpg",
     "premiered": "2021-12-07"
   },
   {
@@ -1074,7 +1074,7 @@
     "network": "ABC",
     "status": "Running",
     "latest_season": 23,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/600/1501061.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/642/1605101.jpg",
     "premiered": "2005-03-27"
   },
   {
@@ -2590,7 +2590,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/sweet-magnolias-2020.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/38894/sweet-magnolias",
     "network": "Netflix",
-    "status": "Running",
+    "status": "Ended",
     "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/628/1571289.jpg",
     "premiered": "2020-05-19"
@@ -2801,7 +2801,7 @@
     "network": "Netflix",
     "status": "Running",
     "latest_season": 4,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/640/1600834.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/641/1604939.jpg",
     "premiered": "2023-04-20"
   },
   {
