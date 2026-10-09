@@ -5,8 +5,16 @@
     <description>New season notifications for Your Friendly Neighborhood Spider-Man. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/your-friendly-neighborhood-spider-man-2025.xml</link>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jan 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jan 2027 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/your-friendly-neighborhood-spider-man-2025.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your Friendly Neighborhood Spider-Man — Season 2</title>
+      <description>Premiere: 13 January 2027
+Finale: 13 January 2027</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/your-friendly-neighborhood-spider-man-2025-s2.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/your-friendly-neighborhood-spider-man-2025-s2.html</guid>
+      <pubDate>Wed, 13 Jan 2027 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Your Friendly Neighborhood Spider-Man — Season 1</title>
       <description>Premiere: 29 January 2025
