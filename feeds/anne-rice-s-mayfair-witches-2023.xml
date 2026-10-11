@@ -5,8 +5,16 @@
     <description>New season notifications for Anne Rice's Mayfair Witches. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/anne-rice-s-mayfair-witches-2023.xml</link>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Jan 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Dec 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/anne-rice-s-mayfair-witches-2023.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anne Rice's Mayfair Witches — Season 3</title>
+      <description>Premiere: 30 December 2026
+Finale: 30 December 2026</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/anne-rice-s-mayfair-witches-2023-s3.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/anne-rice-s-mayfair-witches-2023-s3.html</guid>
+      <pubDate>Wed, 30 Dec 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Anne Rice's Mayfair Witches — Season 2</title>
       <description>Premiere: 5 January 2025
