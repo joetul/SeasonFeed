@@ -533,7 +533,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/citadel-2023.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/45834/citadel",
     "network": "Prime Video",
-    "status": "Ended",
+    "status": "To Be Determined",
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/624/1560435.jpg",
     "premiered": "2023-04-28"
@@ -1303,7 +1303,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/it-s-always-sunny-in-philadelphia-2005.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/347/its-always-sunny-in-philadelphia",
     "network": "FXX",
-    "status": "Running",
+    "status": "To Be Determined",
     "latest_season": 18,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/636/1592247.jpg",
     "premiered": "2005-08-04"
