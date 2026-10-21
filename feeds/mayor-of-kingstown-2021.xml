@@ -5,8 +5,17 @@
     <description>New season notifications for Mayor of Kingstown. Data from TVmaze (tvmaze.com) under CC BY-SA 4.0.</description>
     <link>https://joetul.github.io/SeasonFeed/feeds/mayor-of-kingstown-2021.xml</link>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Oct 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 15 Jan 2027 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://joetul.github.io/SeasonFeed/feeds/mayor-of-kingstown-2021.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mayor of Kingstown — Season 5</title>
+      <description>Premiere: 15 January 2027
+Finale: 15 January 2027
+Episodes: 8</description>
+      <link>https://joetul.github.io/SeasonFeed/updates/mayor-of-kingstown-2021-s5.html</link>
+      <guid isPermaLink="true">https://joetul.github.io/SeasonFeed/updates/mayor-of-kingstown-2021-s5.html</guid>
+      <pubDate>Fri, 15 Jan 2027 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Mayor of Kingstown — Season 4</title>
       <description>Premiere: 26 October 2025
