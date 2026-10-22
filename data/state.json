@@ -59,6 +59,12 @@
     "latest_season": 1,
     "last_checked": "2026-03-16T18:42:46Z"
   },
+  "ahsoka": {
+    "tvmaze_id": 52343,
+    "name": "Ahsoka",
+    "latest_season": 2,
+    "last_checked": "2026-10-22T08:09:52Z"
+  },
   "alice-in-borderland": {
     "tvmaze_id": 50036,
     "name": "Alice in Borderland",
@@ -316,6 +322,12 @@
     "name": "Creature Commandos",
     "latest_season": 2,
     "last_checked": "2026-03-17T00:10:11Z"
+  },
+  "criminal-minds": {
+    "tvmaze_id": 81,
+    "name": "Criminal Minds",
+    "latest_season": 20,
+    "last_checked": "2026-10-22T08:14:50Z"
   },
   "cross": {
     "tvmaze_id": 64834,
@@ -742,6 +754,12 @@
     "name": "Lanterns",
     "latest_season": 1,
     "last_checked": "2026-03-20T14:43:05Z"
+  },
+  "law-order-special-victims-unit": {
+    "tvmaze_id": 103,
+    "name": "Law & Order: Special Victims Unit",
+    "latest_season": 28,
+    "last_checked": "2026-10-22T08:13:14Z"
   },
   "lawmen-bass-reeves": {
     "tvmaze_id": 66544,
@@ -1355,6 +1373,12 @@
     "latest_season": 9,
     "last_checked": "2026-03-16T00:21:59Z"
   },
+  "suits-la": {
+    "tvmaze_id": 74414,
+    "name": "Suits LA",
+    "latest_season": 1,
+    "last_checked": "2026-10-22T08:15:03Z"
+  },
   "sunny": {
     "tvmaze_id": 60398,
     "name": "Sunny",
@@ -1816,6 +1840,12 @@
     "name": "Virgin River",
     "latest_season": 8,
     "last_checked": "2026-03-16T18:42:02Z"
+  },
+  "vision": {
+    "tvmaze_id": 72478,
+    "name": "Vision",
+    "latest_season": 1,
+    "last_checked": "2026-10-22T08:14:02Z"
   },
   "wandavision": {
     "tvmaze_id": 41748,

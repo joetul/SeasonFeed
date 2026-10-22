@@ -110,6 +110,17 @@
     "premiered": "2024-09-18"
   },
   {
+    "name": "Ahsoka",
+    "slug": "ahsoka-2023",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/ahsoka-2023.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/52343/ahsoka",
+    "network": "Disney+",
+    "status": "Running",
+    "latest_season": 2,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/636/1592346.jpg",
+    "premiered": "2023-08-22"
+  },
+  {
     "name": "Alice in Borderland",
     "slug": "alice-in-borderland-2020",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/alice-in-borderland-2020.xml",
@@ -581,6 +592,17 @@
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/546/1365583.jpg",
     "premiered": "2024-12-05"
+  },
+  {
+    "name": "Criminal Minds",
+    "slug": "criminal-minds-2005",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/criminal-minds-2005.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/81/criminal-minds",
+    "network": "Paramount+",
+    "status": "Running",
+    "latest_season": 20,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/626/1567475.jpg",
+    "premiered": "2005-09-22"
   },
   {
     "name": "Cross",
@@ -1362,6 +1384,17 @@
     "latest_season": 1,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/637/1592971.jpg",
     "premiered": "2026-08-16"
+  },
+  {
+    "name": "Law & Order: Special Victims Unit",
+    "slug": "law-order-special-victims-unit-1999",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/law-order-special-victims-unit-1999.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/103/law-order-special-victims-unit",
+    "network": "NBC",
+    "status": "Running",
+    "latest_season": 28,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/644/1611226.jpg",
+    "premiered": "1999-09-20"
   },
   {
     "name": "Lawmen: Bass Reeves",
@@ -2486,6 +2519,17 @@
     "premiered": "2011-06-23"
   },
   {
+    "name": "Suits LA",
+    "slug": "suits-la-2025",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/suits-la-2025.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/74414/suits-la",
+    "network": "NBC",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/557/1394010.jpg",
+    "premiered": "2025-02-23"
+  },
+  {
     "name": "Sunny",
     "slug": "sunny-2024",
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/sunny-2024.xml",
@@ -2755,7 +2799,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/the-diplomat-2023.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/60213/the-diplomat",
     "network": "Netflix",
-    "status": "Running",
+    "status": "To Be Determined",
     "latest_season": 4,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/646/1615567.jpg",
     "premiered": "2023-04-20"
@@ -3109,7 +3153,7 @@
     "network": "Prime Video",
     "status": "Running",
     "latest_season": 2,
-    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/641/1604302.jpg",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/646/1617453.jpg",
     "premiered": "2022-07-01"
   },
   {
@@ -3331,6 +3375,17 @@
     "latest_season": 8,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/617/1544047.jpg",
     "premiered": "2019-12-06"
+  },
+  {
+    "name": "Vision",
+    "slug": "vision",
+    "feed_url": "https://joetul.github.io/SeasonFeed/feeds/vision.xml",
+    "tvmaze_url": "https://www.tvmaze.com/shows/72478/vision",
+    "network": "DR1",
+    "status": "Ended",
+    "latest_season": 1,
+    "image": null,
+    "premiered": null
   },
   {
     "name": "WandaVision",
