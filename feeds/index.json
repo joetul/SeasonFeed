@@ -621,8 +621,8 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/cyberpunk-edgerunners-2022.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/48945/cyberpunk-edgerunners",
     "network": "Netflix",
-    "status": "Ended",
-    "latest_season": 1,
+    "status": "Running",
+    "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/498/1246519.jpg",
     "premiered": "2022-09-13"
   },
@@ -3151,7 +3151,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/the-terminal-list-2022.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/47856/the-terminal-list",
     "network": "Prime Video",
-    "status": "Running",
+    "status": "To Be Determined",
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/646/1617453.jpg",
     "premiered": "2022-07-01"
