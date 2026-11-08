@@ -368,7 +368,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/black-doves-2024.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/68407/black-doves",
     "network": "Netflix",
-    "status": "Running",
+    "status": "To Be Determined",
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/642/1607270.jpg",
     "premiered": "2024-12-05"
@@ -1820,8 +1820,8 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/nobody-wants-this-2024.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/77060/nobody-wants-this",
     "network": "Netflix",
-    "status": "To Be Determined",
-    "latest_season": 4,
+    "status": "Running",
+    "latest_season": 3,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/646/1615448.jpg",
     "premiered": "2024-09-26"
   },
