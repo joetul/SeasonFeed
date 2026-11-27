@@ -60,7 +60,7 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/a-thousand-blows-2025.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/63786/a-thousand-blows",
     "network": "Disney+",
-    "status": "To Be Determined",
+    "status": "Ended",
     "latest_season": 2,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/607/1518917.jpg",
     "premiered": "2025-02-21"
@@ -2612,8 +2612,8 @@
     "feed_url": "https://joetul.github.io/SeasonFeed/feeds/ted-lasso-2020.xml",
     "tvmaze_url": "https://www.tvmaze.com/shows/44458/ted-lasso",
     "network": "Apple TV",
-    "status": "To Be Determined",
-    "latest_season": 4,
+    "status": "Running",
+    "latest_season": 5,
     "image": "https://static.tvmaze.com/uploads/images/medium_portrait/634/1585930.jpg",
     "premiered": "2020-08-14"
   },
